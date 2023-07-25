@@ -1,0 +1,27 @@
+{
+  "_ag-grid-chunk-ed6c4265.js": {
+    "file": "ag-grid-chunk-ed6c4265.js",
+    "imports": [
+      "_chunk-libs-aa7c0e73.js"
+    ]
+  },
+  "_chunk-libs-aa7c0e73.js": {
+    "file": "chunk-libs-aa7c0e73.js",
+    "imports": [
+      "_ag-grid-chunk-ed6c4265.js"
+    ]
+  },
+  "src/eureka-main.tsx": {
+    "file": "index-f7c78bdc.js",
+    "imports": [
+      "_chunk-libs-aa7c0e73.js",
+      "_ag-grid-chunk-ed6c4265.js"
+    ],
+    "isEntry": true,
+    "src": "src/eureka-main.tsx"
+  },
+  "style.css": {
+    "file": "style-6862ead5.css",
+    "src": "style.css"
+  }
+}
