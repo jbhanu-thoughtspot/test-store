@@ -1,0 +1,31 @@
+// Protocol buffer definition to represent configuration for exports
+
+syntax = "proto2";
+package blink.exportConfig;
+
+message ExportConfig {
+    // export format enum
+    enum ExportFormat {
+        PDF = 0;
+        PNG = 1;
+        CSV = 2;
+        XLS = 3;
+    }
+    optional ExportFormat export_format = 1 [default = PDF];
+
+    message ExportOptions {
+        // predefined page sizes
+        enum PageSize {
+            A4 = 0;
+        }
+        optional PageSize page_size = 1 [default = A4];
+
+        enum Orientation {
+            PORTRAIT = 0;
+            LANDSCAPE = 1;
+        }
+        optional Orientation orientation = 2 [default = LANDSCAPE];
+    }
+    // options for the page
+    optional ExportOptions export_options = 2;
+}

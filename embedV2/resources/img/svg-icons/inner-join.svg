@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="32px" height="20px" viewBox="0 0 32 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Join-Type" transform="translate(-43.000000, -10.000000)">
+            <g id="Inner-Join">
+                <g>
+                    <g id="Icon" transform="translate(43.000000, 10.000000)">
+                        <circle id="Oval" fill="#89BBFE" opacity="0.8" cx="9.6969697" cy="9.6969697" r="9.6969697"></circle>
+                        <circle id="Oval-Copy" fill="#89BBFE" opacity="0.802255597" cx="22.3030303" cy="9.6969697" r="9.6969697"></circle>
+                        <path d="M16,2.42424242 C18.0774082,4.20274581 19.3939394,6.84439556 19.3939394,9.79353764 C19.3939394,12.7426797 18.0774082,15.3843295 16,17.1628329 C13.9225918,15.3843295 12.6060606,12.7426797 12.6060606,9.79353764 C12.6060606,6.84439556 13.9225918,4.20274581 16,2.42424242 Z" id="Combined-Shape" fill="#0A5CC7"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

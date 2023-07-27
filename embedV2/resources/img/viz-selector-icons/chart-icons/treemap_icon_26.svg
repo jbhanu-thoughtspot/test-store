@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Chart Icon/Treempa Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chart-Icon/Treempa-Copy-2">
+            <g id="treemap_chart_24-copy-2">
+                <rect id="Rectangle-path" x="0" y="0" width="48" height="47.98"></rect>
+                <g id="Group-10" transform="translate(6.000000, 5.990000)" fill-rule="nonzero">
+                    <rect id="Rectangle-path" fill="#9E8BAD" x="30" y="0" width="6" height="18"></rect>
+                    <rect id="Rectangle-path" fill="#B47998" x="14" y="0" width="14" height="18"></rect>
+                    <rect id="Rectangle-path" fill="#81A4CB" x="30" y="20" width="6" height="10"></rect>
+                    <rect id="Rectangle-path" fill="#68B8E3" x="30" y="32" width="6" height="4"></rect>
+                    <rect id="Rectangle-path" fill="#77ACD5" x="14" y="32" width="14" height="4"></rect>
+                    <rect id="Rectangle-path" fill="#DE576F" x="0" y="0" width="12" height="36"></rect>
+                    <rect id="Rectangle-path" fill="#9C8EB0" x="14" y="20" width="14" height="10"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

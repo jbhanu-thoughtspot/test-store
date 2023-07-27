@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Chart Icon/Stacked area</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chart-Icon/Stacked-area">
+            <g id="stacked_area_24_1-copy-2">
+                <rect id="Rectangle-path" x="0" y="0" width="48" height="47.98"></rect>
+                <g id="Group" transform="translate(4.000000, 6.000000)" fill-rule="nonzero">
+                    <polygon id="Shape" fill="#5776AD" points="0.0221621622 33.96 39.9140541 33.96 39.9140541 7.12700653 32.7963382 0.133300781 25.4607332 3.55878931 18.2340728 1.7746807 10.9710974 16.136755 3.61733494 17.8316582"></polygon>
+                    <polygon id="Shape" fill="#F5CF5F" points="0.0221621622 33.96 39.9140541 33.96 39.9140541 10.8557935 32.7963382 9.32146012 25.4607332 6.46688634 18.2340728 10.534654 10.9710974 20.9895304 3.61733494 22.2205654"></polygon>
+                    <polygon id="Shape" fill="#68B8E3" points="0.0221621622 33.96 39.9140541 33.96 39.9140541 15.1472609 32.7963382 13.442751 25.4607332 16.8728142 18.2340728 14.3476143 10.9710974 24.2800671 3.61733494 25.1849304"></polygon>
+                    <polygon id="Shape" fill="#DE576F" points="0.0221621622 33.96 39.9140541 33.96 39.9140541 23.4872825 32.7963382 23.6656933 25.4607332 27.0376586 18.2340728 25.877988 10.9710974 29.4818874 3.61733494 29.9100735"></polygon>
+                </g>
+                <path d="M4,43.5 L44,43.5" id="Path-2" stroke="#757575"></path>
+            </g>
+        </g>
+    </g>
+</svg>

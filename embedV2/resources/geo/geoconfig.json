@@ -1,0 +1,61 @@
+{
+    "ID": {
+        "SUPPORT": {
+            "DIV_1": true
+        },
+        "LABEL": {
+            "DIV_1": "subDivisionNames.PROVINCE"
+        },
+        "EXTRA_FIELDS": {
+            "DIV_1": [
+                "Propinsi",
+                "SUMBER"
+            ]
+        }
+    },
+    "US": {
+        "SUPPORT": {
+            "DIV_1": true,
+            "DIV_2": true,
+            "ZIP": true
+        },
+        "LABEL": {
+            "DIV_2": "subDivisionNames.COUNTY"
+        },
+        "EXTRA_FIELDS": {
+            "DIV_1": [
+                "FIPS"
+            ],
+            "DIV_2": [
+                "FIPS"
+            ]
+        },
+        "NORMALIZER": {
+            "DIV_1": [{
+                "funcName": "padWithLeadingZeros",
+                "options": [2]
+            }, {
+                "funcName": "trim"
+            }, {
+                "funcName": "toLowerCase"
+            }],
+            "DIV_2": [{
+                "funcName": "padWithLeadingZeros",
+                "options": [3]
+            }, {
+                "funcName": "trim"
+            }, {
+                "funcName": "toLowerCase"
+            }, {
+                "funcName": "replace",
+                "options": ["/\\s(city|county|census\\sarea|parish|borough)$/", ""]
+            }],
+            "ZIP": [{
+                    "funcName": "castToString"
+            }, {
+                "funcName": "addTrailingZeros",
+                "options": [5]
+            }]
+        }
+    }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="29px" height="12px" viewBox="0 0 29 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Beta_tag</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="27" height="10" rx="5"></rect>
+        <filter x="-7.4%" y="-10.0%" width="114.8%" height="140.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Learning-screen-Copy-8" transform="translate(-1213.000000, -20.000000)">
+            <g id="Primary-nav" transform="translate(-37.000000, -1.000000)">
+                <g id="Beta_tag" transform="translate(1251.000000, 21.000000)">
+                    <g id="Rectangle-1-Copy">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#F96249" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M4.40002441,7.632 L4.40002441,2.032 L6.40002441,2.032 C7.00802441,2.032 7.52002441,2.2 7.83202441,2.512 C8.08002441,2.76 8.20802441,3.072 8.20802441,3.456 L8.20802441,3.48 C8.20802441,4.168 7.80802441,4.528 7.38402441,4.736 C8.00002441,4.952 8.44802441,5.32 8.44802441,6.072 L8.44802441,6.104 C8.44802441,7.088 7.64802441,7.632 6.45602441,7.632 L4.40002441,7.632 Z M7.28002441,3.624 L7.28002441,3.608 C7.28002441,3.136 6.93602441,2.864 6.33602441,2.864 L5.31202441,2.864 L5.31202441,4.416 L6.28002441,4.416 C6.88802441,4.416 7.28002441,4.144 7.28002441,3.624 Z M7.52002441,5.992 C7.52002441,5.504 7.14402441,5.2 6.44002441,5.2 L5.31202441,5.2 L5.31202441,6.8 L6.48002441,6.8 C7.12002441,6.8 7.52002441,6.52 7.52002441,6.008 L7.52002441,5.992 Z M9.37602441,7.632 L12.9440244,7.632 L12.9440244,6.792 L10.2960244,6.792 L10.2960244,5.232 L12.6080244,5.232 L12.6080244,4.392 L10.2960244,4.392 L10.2960244,2.872 L12.9040244,2.872 L12.9040244,2.032 L9.37602441,2.032 L9.37602441,7.632 Z M15.0400244,7.632 L15.9680244,7.632 L15.9680244,2.896 L17.4400244,2.896 L17.4400244,2.032 L13.5680244,2.032 L13.5680244,2.896 L15.0400244,2.896 L15.0400244,7.632 Z M17.8960244,7.632 L19.9520244,2 L20.8480244,2 L22.9040244,7.632 L21.9360244,7.632 L21.4720244,6.312 L19.2960244,6.312 L18.8320244,7.632 L17.8960244,7.632 Z M19.5840244,5.488 L21.1840244,5.488 L20.3840244,3.24 L19.5840244,5.488 Z" id="BETA" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+//  Copyright: ThoughtSpot Inc. 2013-2016
+//  Author: Priyanshi Deshwal (priyanshi@thoughtspot.com)
+
+//  @fileoverview Bug fixes for Safari.
+
+.safari {
+    // Fixes cursor not appearing in empty flexbox input
+
+    .bk-sage-inner {
+        @include flex-align(stretch !important);
+    }
+}
+
+body {
+    overflow: hidden;
+}

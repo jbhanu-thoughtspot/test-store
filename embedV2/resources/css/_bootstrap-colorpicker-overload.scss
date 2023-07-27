@@ -1,0 +1,53 @@
+.colorpicker.arrow-down::before {
+    position: absolute;
+    top: 100%;
+    left: 6px;
+    display: inline-block;
+    border-top: 7px solid rd-color('gray', 'tint-2');
+    border-right: 7px solid transparent;
+    border-bottom-width: 0;
+    border-left: 7px solid transparent;
+    content: '';
+}
+
+.colorpicker.arrow-down::after {
+    position: absolute;
+    top: 100%;
+    left: 7px;
+    display: inline-block;
+    border-right: 6px solid transparent;
+    border-top: 6px solid rd-color('white');
+    border-left: 6px solid transparent;
+    border-bottom: 0;
+    content: '';
+}
+
+.colorpicker.arrow-right::before {
+    position: absolute;
+    top: 6px;
+    left: 100%;
+    display: inline-block;
+    border-top: 7px solid transparent;
+    border-right-width: 0;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid rd-color('gray', 'tint-2');
+    content: '';
+}
+
+.colorpicker.arrow-right::after {
+    position: absolute;
+    top: 7px;
+    left: 100%;
+    display: inline-block;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid rd-color('white');
+    border-top: 6px solid transparent;
+    border-right: 0;
+    content: '';
+}
+
+.colorpicker.dropdown-menu {
+    min-width: 130px;
+    z-index: $max-z-index;
+    border-radius: 1px;
+}

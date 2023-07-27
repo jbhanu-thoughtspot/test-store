@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>x-lg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons-final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="x-lg" stroke-width="2" stroke="#333333">
+            <g id="x-symb" transform="translate(8.000000, 8.000000)">
+                <polyline id="caret-down-copy" points="0 0.108808234 3.54274614 3.88773745 7.1875 0"></polyline>
+                <polyline id="caret-down-copy-2" transform="translate(3.593750, 5.818869) scale(1, -1) translate(-3.593750, -5.818869) " points="0 3.98380823 3.54274614 7.76273745 7.1875 3.875"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

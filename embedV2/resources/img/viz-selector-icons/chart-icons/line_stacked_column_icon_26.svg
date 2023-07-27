@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Chart Icon/Line Stacked Column</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chart-Icon/Line-Stacked-Column">
+            <g id="Stacked-Column-Line">
+                <g id="Column-chart-Copy-2">
+                    <rect id="Rectangle-4" x="0" y="0" width="48" height="48"></rect>
+                </g>
+                <g id="Stacked-Column-chart--Copy-5" transform="translate(4.000000, 4.000000)">
+                    <polyline id="Shape" stroke="#5776AD" stroke-width="2" points="2 13.3817143 14 5.00914286 25.88 1.01828571 38 5.09142857"></polyline>
+                    <g id="Group-8" transform="translate(0.000000, 23.657143)">
+                        <rect id="Rectangle-2-Copy-4" fill="#DE576F" x="0" y="0" width="8" height="12.3428571"></rect>
+                        <rect id="Rectangle-2-Copy-14" fill="#68B8E3" x="0" y="0" width="8" height="8.22857143"></rect>
+                        <rect id="Rectangle-2-Copy-15" fill="#F5CF5F" x="0" y="0" width="8" height="4.11428571"></rect>
+                    </g>
+                    <g id="Group-7" transform="translate(10.666667, 13.371429)">
+                        <rect id="Rectangle-2-Copy-5" fill="#DE576F" x="0" y="0" width="8" height="22.6285714"></rect>
+                        <rect id="Rectangle-2-Copy-11" fill="#68B8E3" x="0" y="0" width="8" height="14.4"></rect>
+                        <rect id="Rectangle-2-Copy-12" fill="#F5CF5F" x="0" y="0" width="8" height="8.22857143"></rect>
+                    </g>
+                    <g id="Group-5" transform="translate(21.333333, 7.200000)">
+                        <rect id="Rectangle-2-Copy-6" fill="#DE576F" x="0" y="0.0276227679" width="8" height="28.7723772"></rect>
+                        <rect id="Rectangle-2-Copy-8" fill="#68B8E3" x="0" y="4.11428571" width="8" height="12.3428571"></rect>
+                        <rect id="Rectangle-2-Copy-9" fill="#F5CF5F" x="0" y="0.0276227679" width="8" height="6.17142857"></rect>
+                    </g>
+                    <g id="Group-6" transform="translate(32.000000, 13.371429)">
+                        <rect id="Rectangle-2-Copy-7" fill="#DE576F" x="0" y="0" width="8" height="22.6285714"></rect>
+                        <rect id="Rectangle-2-Copy-17" fill="#68B8E3" x="0" y="0" width="8" height="12.3428571"></rect>
+                        <rect id="Rectangle-2-Copy-18" fill="#F5CF5F" x="0" y="0" width="8" height="6.17142857"></rect>
+                    </g>
+                </g>
+            </g>
+            <path d="M4,43.5 L44,43.5" id="Path-3" stroke="#757575"></path>
+        </g>
+    </g>
+</svg>

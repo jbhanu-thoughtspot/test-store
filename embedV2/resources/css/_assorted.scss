@@ -1,0 +1,33 @@
+// Copyright ThoughtSpot Inc. 2012-2016
+// Priyanshi Deshwal (priyanshi$thoughtspot.com)
+
+// Assorted less mixins
+
+// $fileoverview Assorted mixins used to style other less components or use directly in HTML
+
+/* Content:
+
+=Cursor
+=Truncate text
+
+*/
+
+/* =Cursor
+*************************************************************/
+
+@mixin bk-cursor-default() { cursor: default; }
+
+@mixin bk-cursor-pointer() { cursor: pointer; }
+
+@mixin bk-cursor-move() { cursor: move; }
+
+@mixin bk-cursor-text() { cursor: text; }
+
+/* =Cursor
+*************************************************************/
+
+@mixin bk-truncate-text() {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>schedule</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="30" cy="30" r="30"></circle>
+        <path d="M2,4 L2,15 L14,15 L14,4 L2,4 Z M2,2 L2,0 L4,0 L4,2 L15,2 C15.5522847,2 16,2.44771525 16,3 L16,16 C16,16.5522847 15.5522847,17 15,17 L1,17 C0.44771525,17 0,16.5522847 0,16 L0,3 C0,2.44771525 0.44771525,2 1,2 L2,2 Z M8,9 L12,9 L12,13 L8,13 L8,9 Z M12,0 L14,0 L14,2 L12,2 L12,0 Z" id="path-3"></path>
+    </defs>
+    <g id="Create-Connection" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.20" transform="translate(-909.000000, -328.000000)">
+            <g id="schedule" transform="translate(909.000000, 328.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Oval" fill="#06BF7F" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="Group" mask="url(#mask-2)">
+                    <g transform="translate(-10.000000, -2.500000)">
+                        <rect id="Rectangle" stroke="none" fill="#FFFFFF" fill-rule="nonzero" opacity="0.9" transform="translate(55.000000, 17.500000) rotate(-180.000000) translate(-55.000000, -17.500000) " x="40" y="2.5" width="30" height="30"></rect>
+                        <rect id="Rectangle" stroke="none" fill="#FFFFFF" fill-rule="nonzero" opacity="0.7" transform="translate(20.000000, 17.500000) rotate(-180.000000) translate(-20.000000, -17.500000) " x="1.77635684e-15" y="2.5" width="40" height="30"></rect>
+                        <rect id="Rectangle" stroke="none" fill="#FFFFFF" fill-rule="nonzero" opacity="0.4" transform="translate(60.000000, 47.500000) rotate(-180.000000) translate(-60.000000, -47.500000) " x="40" y="32.5" width="40" height="30"></rect>
+                        <path d="M10,7.5 L40,7.5" id="Path" stroke="#06BF7F" stroke-width="1" fill="none"></path>
+                        <path d="M10,12.5 L30,12.5" id="Path" stroke="#06BF7F" stroke-width="1" fill="none"></path>
+                        <path d="M10,17.5 L40,17.5" id="Path" stroke="#06BF7F" stroke-width="1" fill="none"></path>
+                        <path d="M10,22.5 L30,22.5" id="Path" stroke="#06BF7F" stroke-width="1" fill="none"></path>
+                        <path d="M10,27.5 L40,27.5" id="Path" stroke="#06BF7F" stroke-width="1" fill="none"></path>
+                        <g id="Group" opacity="0.9" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(40.000000, 36.250000)">
+                            <path d="M0,1.25 L30,1.25" id="Path" stroke="#FFFFFF"></path>
+                            <path d="M10,6.25 L30,6.25" id="Path" stroke="#FFFFFF"></path>
+                            <path d="M0,11.25 L30,11.25" id="Path" stroke="#FFFFFF"></path>
+                            <path d="M10,16.25 L30,16.25" id="Path" stroke="#FFFFFF"></path>
+                            <path d="M0,21.25 L30,21.25" id="Path" stroke="#FFFFFF"></path>
+                        </g>
+                        <g id="Group" opacity="0.5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(42.500000, 0.000000)">
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(22.505350, 27.499950) rotate(-16.380000) translate(-22.505350, -27.499950) " cx="22.5053503" cy="27.4999501" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(27.502413, 27.502417) rotate(-16.380000) translate(-27.502413, -27.502417) " cx="27.5024127" cy="27.5024172" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(22.495317, 22.502888) rotate(-16.380000) translate(-22.495317, -22.502888) " cx="22.4953175" cy="22.5028878" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(22.497785, 17.505825) rotate(-16.380000) translate(-22.497785, -17.505825) " cx="22.4977846" cy="17.5058254" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(22.500252, 12.508763) rotate(-16.380000) translate(-22.500252, -12.508763) " cx="22.5002517" cy="12.508763" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(22.502719, 7.499201) rotate(-16.380000) translate(-22.502719, -7.499201) " cx="22.5027188" cy="7.49920068" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(17.495788, 27.497483) rotate(-16.380000) translate(-17.495788, -27.497483) " cx="17.495788" cy="27.497483" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(17.498255, 22.500421) rotate(-16.380000) translate(-17.498255, -22.500421) " cx="17.4982551" cy="22.5004206" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(17.500722, 17.503358) rotate(-16.380000) translate(-17.500722, -17.503358) " cx="17.5007222" cy="17.5033583" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(17.503189, 12.506296) rotate(-16.380000) translate(-17.503189, -12.506296) " cx="17.5031894" cy="12.5062959" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(17.505656, 7.509234) rotate(-16.380000) translate(-17.505656, -7.509234) " cx="17.5056565" cy="7.50923356" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(12.498726, 27.507516) rotate(-16.380000) translate(-12.498726, -27.507516) " cx="12.4987256" cy="27.5075159" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(12.501193, 22.497954) rotate(-16.380000) translate(-12.501193, -22.497954) " cx="12.5011928" cy="22.4979535" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(12.503660, 17.500891) rotate(-16.380000) translate(-12.503660, -17.500891) " cx="12.5036599" cy="17.5008912" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(12.506127, 12.503829) rotate(-16.380000) translate(-12.506127, -12.503829) " cx="12.506127" cy="12.5038288" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(12.496094, 7.506766) rotate(-16.380000) translate(-12.496094, -7.506766) " cx="12.4960941" cy="7.50676644" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(7.501663, 27.505049) rotate(-16.380000) translate(-7.501663, -27.505049) " cx="7.50166327" cy="27.5050488" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(7.504130, 22.507986) rotate(-16.380000) translate(-7.504130, -22.507986) " cx="7.50413039" cy="22.5079864" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(7.494098, 17.498424) rotate(-16.380000) translate(-7.494098, -17.498424) " cx="7.49409751" cy="17.498424" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(7.496565, 12.501362) rotate(-16.380000) translate(-7.496565, -12.501362) " cx="7.49656463" cy="12.5013617" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(7.499032, 7.504299) rotate(-16.380000) translate(-7.499032, -7.504299) " cx="7.49903175" cy="7.50429932" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(2.504601, 27.502582) rotate(-16.380000) translate(-2.504601, -27.502582) " cx="2.50460091" cy="27.5025816" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(2.494568, 22.505519) rotate(-16.380000) translate(-2.494568, -22.505519) " cx="2.49456803" cy="22.5055193" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(2.497035, 17.508457) rotate(-16.380000) translate(-2.497035, -17.508457) " cx="2.49703515" cy="17.5084569" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(2.499502, 12.498895) rotate(-16.380000) translate(-2.499502, -12.498895) " cx="2.49950227" cy="12.4988946" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(2.501969, 7.501832) rotate(-16.380000) translate(-2.501969, -7.501832) " cx="2.50196939" cy="7.5018322" r="1.25"></circle>
+                            <circle id="Oval" fill="#06BF7F" fill-rule="nonzero" transform="translate(2.504437, 2.504770) rotate(-16.380000) translate(-2.504437, -2.504770) " cx="2.50443651" cy="2.50476984" r="1.25"></circle>
+                        </g>
+                        <g id="Group" opacity="0.5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(7.500000, 35.000000)">
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(7.492293, 2.506904) rotate(-16.380000) translate(-7.492293, -2.506904) " cx="7.49229252" cy="2.50690364" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(2.495230, 2.504437) rotate(-16.380000) translate(-2.495230, -2.504437) " cx="2.49523016" cy="2.50443651" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(7.502325, 7.503966) rotate(-16.380000) translate(-7.502325, -7.503966) " cx="7.5023254" cy="7.50396599" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(7.499858, 12.501028) rotate(-16.380000) translate(-7.499858, -12.501028) " cx="7.49985827" cy="12.5010284" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(7.497391, 17.498091) rotate(-16.380000) translate(-7.497391, -17.498091) " cx="7.49739115" cy="17.4980907" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(7.494924, 22.495153) rotate(-16.380000) translate(-7.494924, -22.495153) " cx="7.49492403" cy="22.4951531" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(12.501855, 2.496871) rotate(-16.380000) translate(-12.501855, -2.496871) " cx="12.5018549" cy="2.49687076" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(12.499388, 7.506433) rotate(-16.380000) translate(-12.499388, -7.506433) " cx="12.4993878" cy="7.50643312" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(12.496921, 12.503495) rotate(-16.380000) translate(-12.496921, -12.503495) " cx="12.4969206" cy="12.5034955" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(12.494454, 17.500558) rotate(-16.380000) translate(-12.494454, -17.500558) " cx="12.4944535" cy="17.5005578" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(12.491986, 22.497620) rotate(-16.380000) translate(-12.491986, -22.497620) " cx="12.4919864" cy="22.4976202" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(17.498917, 2.499338) rotate(-16.380000) translate(-17.498917, -2.499338) " cx="17.4989172" cy="2.49933788" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(17.496450, 7.496400) rotate(-16.380000) translate(-17.496450, -7.496400) " cx="17.4964501" cy="7.49640024" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(17.493983, 12.505963) rotate(-16.380000) translate(-17.493983, -12.505963) " cx="17.493983" cy="12.5059626" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(17.491516, 17.503025) rotate(-16.380000) translate(-17.491516, -17.503025) " cx="17.4915159" cy="17.503025" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(17.501549, 22.500087) rotate(-16.380000) translate(-17.501549, -22.500087) " cx="17.5015488" cy="22.5000873" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(22.495980, 2.501805) rotate(-16.380000) translate(-22.495980, -2.501805) " cx="22.4959796" cy="2.501805" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(22.493512, 7.498867) rotate(-16.380000) translate(-22.493512, -7.498867) " cx="22.4935125" cy="7.49886736" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(22.491045, 12.495930) rotate(-16.380000) translate(-22.491045, -12.495930) " cx="22.4910454" cy="12.4959297" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(22.501078, 17.505492) rotate(-16.380000) translate(-22.501078, -17.505492) " cx="22.5010782" cy="17.5054921" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(22.498611, 22.502554) rotate(-16.380000) translate(-22.498611, -22.502554) " cx="22.4986111" cy="22.5025544" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(27.493042, 2.504272) rotate(-16.380000) translate(-27.493042, -2.504272) " cx="27.493042" cy="2.50427212" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(27.503075, 7.501334) rotate(-16.380000) translate(-27.503075, -7.501334) " cx="27.5030748" cy="7.50133448" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(27.500608, 12.498397) rotate(-16.380000) translate(-27.500608, -12.498397) " cx="27.5006077" cy="12.4983968" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(27.498141, 17.507959) rotate(-16.380000) translate(-27.498141, -17.507959) " cx="27.4981406" cy="17.5079592" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(27.495673, 22.505022) rotate(-16.380000) translate(-27.495673, -22.505022) " cx="27.4956735" cy="22.5050216" r="1.25"></circle>
+                            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" transform="translate(27.387500, 27.587500) rotate(-16.260205) translate(-27.387500, -27.587500) " cx="27.3875" cy="27.5875" r="1.25"></circle>
+                        </g>
+                        <circle id="Oval" stroke="none" fill="#06BF7F" fill-rule="nonzero" cx="40" cy="32.7125" r="15.2125"></circle>
+                        <path d="M55.2125,32.7125 C55.2125,24.3108682 48.4016318,17.5 40,17.5 C31.5983682,17.5 24.7875,24.3108682 24.7875,32.7125 L55.2125,32.7125 Z" id="Path" stroke="none" fill="#FFFFFF" fill-rule="nonzero" opacity="0.5"></path>
+                    </g>
+                </g>
+                <g id="Group" opacity="0.5" mask="url(#mask-2)" stroke="#FFFFFF">
+                    <g transform="translate(57.500000, 8.750000)" id="Path">
+                        <path d="M0.1875,21.6625 L21.4,0.45"></path>
+                    </g>
+                </g>
+                <g id="Icons/Info/20/Schedule" mask="url(#mask-2)">
+                    <g transform="translate(20.000000, 20.000000)" id="Schedule">
+                        <g transform="translate(2.000000, 1.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Mask" fill="#A2ACBA" fill-rule="nonzero" xlink:href="#path-3"></use>
+                            <g id="Colors/Icons/Active" mask="url(#mask-4)">
+                                <g transform="translate(-2.000000, -1.000000)" id="Colors/Basic/Toned-White">
+                                    <g>
+                                        <g id="Colors/Basic/Black" fill="#000000">
+                                            <rect id="Color" x="0" y="0" width="20" height="20"></rect>
+                                        </g>
+                                        <rect id="filter" fill="#FFFFFF" opacity="0.99000001" x="0" y="0" width="20" height="20"></rect>
+                                        <g id="Colors/Accent/Base" opacity="0.01" fill="#2E75F0">
+                                            <g id="Colors/Basic/Blue">
+                                                <rect id="Color" x="0" y="0" width="20" height="20"></rect>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

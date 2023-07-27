@@ -1,0 +1,73 @@
+@mixin bk-powered-footer-layout() {
+    @include flex-grow-shrink-basis(0, 0, 20px);
+    @include flex(row);
+    @include flex-justify(center);
+    @include flex-align(center);
+
+    width: 100%;
+}
+
+.bk-app-controller-container {
+    @include bk-vertical-flex-container-sized;
+
+    z-index: 0;
+
+    .bk-app-container {
+        @include bk-vertical-flex-container-sized;
+
+        .bk-app-content {
+            @include bk-vertical-flex-container-sized;
+
+            .bk-page-wrapper {
+                // SCAL-22587:
+                // Present mode was hidden behind the nav bar. To fix this in IE we need
+                // make add the position relative.
+
+                .ie & {
+                    position: relative;
+                }
+
+                @include bk-vertical-flex-container-sized;
+
+                // TODO: Check in embed scenario
+
+                &.bk-without-nav {
+                    height: 100%;
+                    margin-top: 0;
+                }
+
+                .bk-primary-nav-container {
+                    // Edge browser requires position to be explicitly defined to create
+                    // stacking context. Without this 'Present view' overlay is displayed
+                    // below primary nav even though z-index is set
+                    position: relative;
+
+                    @include flex-grow-shrink-basis(0, 0, 48px);
+                }
+
+                .bk-app-canvas {
+                    @include bk-vertical-flex-container-sized;
+                }
+
+                .bk-page-app-canvas {
+                    position: relative;
+
+                    @include bk-vertical-flex-container-sized;
+                }
+
+                .bk-powered-by-ts-ribbon {
+                    @include bk-powered-footer-layout;
+
+                    background-color: rd-color('white') ();
+                    border-top: 1px solid rd-color('gray', 'tint-4');
+                }
+            }
+        }
+    }
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}

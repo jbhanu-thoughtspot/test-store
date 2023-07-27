@@ -1,0 +1,25 @@
+<svg width="181" height="89" viewBox="0 0 181 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<line x1="-5.5194e-09" y1="16.499" x2="181" y2="16.499" stroke="#EAEDF2"/>
+<line x1="-5.5194e-09" y1="0.499023" x2="181" y2="0.499025" stroke="#EAEDF2"/>
+<line x1="-5.5194e-09" y1="34.499" x2="181" y2="34.499" stroke="#EAEDF2"/>
+<line x1="-5.5194e-09" y1="52.499" x2="181" y2="52.499" stroke="#EAEDF2"/>
+<line x1="-6.29093e-09" y1="70.499" x2="181" y2="70.499" stroke="#EAEDF2"/>
+<line x1="-6.29093e-09" y1="88.499" x2="181" y2="88.499" stroke="#EAEDF2"/>
+<line x1="114.5" y1="-0.000976555" x2="114.5" y2="88.999" stroke="#EAEDF2"/>
+<line x1="88.5" y1="-0.000976555" x2="88.5" y2="88.999" stroke="#EAEDF2"/>
+<line x1="62.5" y1="-0.000976555" x2="62.5" y2="88.999" stroke="#EAEDF2"/>
+<line x1="166.5" y1="-0.000976555" x2="166.5" y2="88.999" stroke="#EAEDF2"/>
+<line x1="140.5" y1="-0.000976555" x2="140.5" y2="88.999" stroke="#EAEDF2"/>
+<line x1="36.5" y1="-0.000976555" x2="36.5" y2="88.999" stroke="#EAEDF2"/>
+<line x1="10.5" y1="-0.000976555" x2="10.5" y2="88.999" stroke="#EAEDF2"/>
+<path d="M7 65.3476L36.8396 51.3102L66.1979 54.9198L114.294 16.0802L142.241 33.262L174.968 10" stroke="#C0C6CF" stroke-width="4" stroke-linecap="round"/>
+<circle cx="113.964" cy="16.9625" r="6.68568" transform="rotate(15 113.964 16.9625)" fill="#FF8142" stroke="white" stroke-width="2"/>
+<circle cx="35.9635" cy="51.9635" r="6.68568" transform="rotate(15 35.9635 51.9635)" fill="#FF8142" stroke="white" stroke-width="2"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="181" height="89" fill="white" transform="translate(0 -0.000976562)"/>
+</clipPath>
+</defs>
+</svg>

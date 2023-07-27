@@ -1,0 +1,36 @@
+<svg width="181" height="89" viewBox="0 0 181 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<line x1="-5.5194e-09" y1="18.5" x2="181" y2="18.5" stroke="#EAEDF2"/>
+<line x1="-5.5194e-09" y1="0.5" x2="181" y2="0.500001" stroke="#EAEDF2"/>
+<line x1="-5.5194e-09" y1="36.5" x2="181" y2="36.5" stroke="#EAEDF2"/>
+<line x1="-5.5194e-09" y1="54.5" x2="181" y2="54.5" stroke="#EAEDF2"/>
+<line x1="-6.29093e-09" y1="72.5" x2="181" y2="72.5" stroke="#EAEDF2"/>
+<line x1="-6.29093e-09" y1="88.5" x2="181" y2="88.5" stroke="#EAEDF2"/>
+<line x1="114.5" y1="7.62675e-09" x2="114.5" y2="89" stroke="#EAEDF2"/>
+<line x1="88.5" y1="7.62675e-09" x2="88.5" y2="89" stroke="#EAEDF2"/>
+<line x1="62.5" y1="7.62675e-09" x2="62.5" y2="89" stroke="#EAEDF2"/>
+<line x1="166.5" y1="7.62675e-09" x2="166.5" y2="89" stroke="#EAEDF2"/>
+<line x1="140.5" y1="7.62675e-09" x2="140.5" y2="89" stroke="#EAEDF2"/>
+<line x1="36.5" y1="7.27366e-09" x2="36.5" y2="89" stroke="#EAEDF2"/>
+<line x1="10.5" y1="7.27366e-09" x2="10.5" y2="89" stroke="#EAEDF2"/>
+<circle cx="36.9485" cy="76.5426" r="8.12241" transform="rotate(15 36.9485 76.5426)" fill="#2770EF"/>
+<circle cx="65.5467" cy="51.4108" r="8.12241" transform="rotate(15 65.5467 51.4108)" fill="#2770EF"/>
+<circle cx="47.7675" cy="42.4427" r="4.0612" transform="rotate(15 47.7675 42.4427)" fill="#2770EF"/>
+<circle cx="88.3859" cy="28.9398" r="4.0612" transform="rotate(15 88.3859 28.9398)" fill="#2770EF"/>
+<circle cx="119.167" cy="14.4837" r="4.0612" transform="rotate(15 119.167 14.4837)" fill="#2770EF"/>
+<circle cx="118.518" cy="76.5355" r="4.0612" transform="rotate(15 118.518 76.5355)" fill="#2770EF"/>
+<circle cx="47.0665" cy="60.7536" r="5.68568" transform="rotate(15 47.0665 60.7536)" fill="#2770EF"/>
+<circle cx="68.3465" cy="72.3424" r="5.68568" transform="rotate(15 68.3465 72.3424)" fill="#2770EF"/>
+<circle cx="96.6815" cy="11.9635" r="5.68568" transform="rotate(15 96.6815 11.9635)" fill="#E22B3D"/>
+<circle cx="165.974" cy="31.2301" r="5.68568" transform="rotate(15 165.974 31.2301)" fill="#2770EF"/>
+<circle cx="110.62" cy="30.693" r="8.12241" transform="rotate(15 110.62 30.693)" fill="#2770EF"/>
+<circle cx="125.245" cy="51.4293" r="8.12241" transform="rotate(15 125.245 51.4293)" fill="#2770EF"/>
+<circle cx="136.793" cy="20.8883" r="12.9958" transform="rotate(15 136.793 20.8883)" fill="#2770EF"/>
+<circle cx="97.2926" cy="61.5982" r="12.9958" transform="rotate(15 97.2926 61.5982)" fill="#2770EF"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="181" height="89" fill="white"/>
+</clipPath>
+</defs>
+</svg>

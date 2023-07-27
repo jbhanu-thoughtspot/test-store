@@ -1,0 +1,638 @@
+// Copyright ThoughtSpot Inc. 2013-2014
+// Author: Jonathan Moreira (jonathan@thoughtspot.com)
+//
+// This file contains all the main CSS animations functions used through our app
+
+/* Transitions functions */
+
+.transform(@t) {
+    -webkit-transform: @t;
+    -moz-transform: @t;
+    transform: @t;
+}
+
+.transition(@t) {
+    -webkit-transition: @t;
+    -moz-transition: @t;
+    -ms-transition: @t;
+    -o-transition: @t;
+    transition: @t;
+}
+
+.transition-timing(@t) {
+    -webkit-transition-timing-function: @t;
+    -moz-transition-timing-function: @t;
+    -ms-transition-timing-function: @t;
+    -o-transition-timing-function: @t;
+    transition-timing-function: @t;
+}
+
+/* Animations parameters functions */
+
+/* A mixin that contains all the following attributes:
+ * - duration
+ * - fill-mode
+ * - name
+ * - delay
+ * - iteration-count
+ * - direction
+ * - timing-function
+ */
+.animation(@duration: 0s,
+           @fill-mode: none,
+           @name: none,
+           @delay: 0s,
+           @iteration: 1,
+           @direction: normal,
+           @timing-function: ease) {
+    .animation-duration(@duration);
+    .animation-fill-mode(@fill-mode);
+    .animation-name(@name);
+    .animation-delay(@delay);
+    .animation-iteration-count(@iteration);
+    .animation-direction(@direction);
+    .animation-timing-function(@timing-function);
+}
+
+.animation-duration(@d) {
+    -webkit-animation-duration: @d;
+    -moz-animation-duration: @d;
+    -o-animation-duration: @d;
+    animation-duration: @d;
+}
+
+.animation-fill-mode(@a) {
+    -webkit-animation-fill-mode: @a;
+    -moz-animation-fill-mode: @a;
+    -o-animation-fill-mode: @a;
+    animation-fill-mode: @a;
+}
+
+.animation-name(@a) {
+    -webkit-animation-name: @a;
+    -moz-animation-name: @a;
+    -o-animation-name: @a;
+    animation-name: @a;
+}
+
+.animation-delay(@d) {
+    -webkit-animation-delay: @d;
+    -moz-animation-delay: @d;
+    -o-animation-delay: @d;
+    animation-delay: @d;
+}
+
+.animation-iteration-count(@i) {
+    -webkit-animation-iteration-count: @i;
+    -moz-animation-iteration-count: @i;
+    -o-animation-iteration-count: @i;
+    animation-iteration-count: @i;
+}
+
+.animation-direction(@d) {
+    -webkit-animation-direction: @d;
+    -moz-animation-direction: @d;
+    -o-animation-direction: @d;
+    animation-direction: @d;
+}
+
+.animation-timing-function(@t) {
+    -webkit-animation-timing-function: @t;
+    -moz-animation-timing-function: @t;
+    -o-animation-timing-function: @t;
+    animation-timing-function: @t;
+}
+
+
+/****************** ANIMATIONS LIBRARY  *******************
+ * All our custom CSS3 animations are listed below.
+ *
+ * If you need to create a new animation, please use the
+ * same structure as follows:
+ *
+ *  1. Set the animation effect by creating a class and
+ *     giving it a name that clearly describes
+ *     the animation, example:
+ *      .bounce-and-fade-out() {}
+ *
+ *  2. Comment out your newly created class describing
+ *     the animation result.
+ *
+ *  3. Set the keyframes by linking them to the class you
+ *     just created. Also make sure the keyframes are
+ *     supported by all the browsers.
+ *
+ * If you still have trouble setting up the animation, please
+ * check the examples below.
+/*********************************************************/
+
+// animation with a simple bouncing effect
+.bounce() {
+    0% {
+        .transform(scale(0.90));
+    }
+
+    25% {
+        .transform(scale(1.1));
+    }
+
+    50% {
+        .transform(scale(0.97));
+    }
+
+    100% {
+        .transform(scale(1));
+    }
+}
+@-webkit-keyframes bounce {.bounce;}
+@-moz-keyframes bounce {.bounce;}
+@-ms-keyframes bounce {.bounce;}
+@-o-keyframes bounce {.bounce;}
+@keyframes bounce {.bounce;}
+
+// animation with a simple bouncing effect with fading effect.
+.faded-bounce() {
+    0% {
+        opacity: 0;
+        .transform(scale(0.90));
+    }
+
+    25% {
+        opacity: 1;
+        .transform(scale(1.1));
+    }
+
+    50% {
+        .transform(scale(0.97));
+    }
+
+    100% {
+        .transform(scale(1));
+    }
+}
+@-webkit-keyframes faded-bounce {.faded-bounce;}
+@-moz-keyframes faded-bounce {.faded-bounce;}
+@-ms-keyframes faded-bounce {.faded-bounce;}
+@-o-keyframes faded-bounce {.faded-bounce;}
+@keyframes faded-bounce {.faded-bounce;}
+
+
+// animation with a bouncing and fade in effect
+.bounce-and-fade-in() {
+    0% {
+        opacity: 0;
+        .transform(scale(0.8));
+    }
+
+    75% {
+        .transform(scale(1.03));
+    }
+
+    100% {
+        opacity:1.0;
+        .transform(scale(1));
+    }
+}
+@-webkit-keyframes bounce-and-fade-in {.bounce-and-fade-in;}
+@-moz-keyframes bounce-and-fade-in {.bounce-and-fade-in;}
+@-ms-keyframes bounce-and-fade-in {.bounce-and-fade-in;}
+@-o-keyframes bounce-and-fade-in {.bounce-and-fade-in;}
+@keyframes bounce-and-fade-in {.bounce-and-fade-in;}
+
+
+// animation with a simple fade-in effect
+.fade-in() {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity:1.0;
+    }
+}
+@-webkit-keyframes fade-in {.fade-in;}
+@-moz-keyframes fade-in {.fade-in;}
+@-ms-keyframes fade-in {.fade-in;}
+@-o-keyframes fade-in {.fade-in;}
+@keyframes fade-in {.fade-in;}
+
+
+// animation with a simple fade-out effect
+.fade-out() {
+    0% {
+        opacity: 1.0;
+    }
+
+    100% {
+        opacity:0;
+    }
+}
+@-webkit-keyframes fade-out {.fade-out;}
+@-moz-keyframes fade-out {.fade-out;}
+@-ms-keyframes fade-out {.fade-out;}
+@-o-keyframes fade-out {.fade-out;}
+@keyframes fade-out {.fade-out;}
+
+
+// animation with a fade-in with an entry effect (element resized from 60% to 100%)
+.fade-in-entry() {
+    0% {
+        opacity: 0;
+        .transform(scale(0.7));
+    }
+
+    70% {
+        opacity: 1.0;
+        .transform(scale(1.0));
+    }
+}
+@-webkit-keyframes fade-in-entry {.fade-in-entry;}
+@-moz-keyframes fade-in-entry {.fade-in-entry;}
+@-ms-keyframes fade-in-entry {.fade-in-entry;}
+@-o-keyframes fade-in-entry {.fade-in-entry;}
+@keyframes fade-in-entry {.fade-in-entry;}
+
+
+// animation with a horizontal flip effect coupled with a slight fade-in
+.flipiny() {
+    0% {
+        .transform(perspective(400px) rotatey(90deg));
+        opacity: 0;
+    }
+
+    40% {
+        .transform(perspective(400px) rotatey(-10deg));
+    }
+
+    70% {
+        .transform(perspective(400px) rotatey(10deg));
+    }
+
+    100% {
+        .transform(perspective(400px) rotatey(0deg));
+        opacity: 1;
+    }
+}
+.animated.flipiny {
+    -webkit-backface-visibility: visible !important;
+    -webkit-animation-name: flipiny;
+    -moz-backface-visibility: visible !important;
+    -moz-animation-name: flipiny;
+    -o-backface-visibility: visible !important;
+    -o-animation-name: flipiny;
+    backface-visibility: visible !important;
+    animation-name: flipiny;
+}
+@-webkit-keyframes flipiny {.flipiny;}
+@-moz-keyframes flipiny {.flipiny;}
+@-o-keyframes flipiny {.flipiny;}
+
+
+// animation to make a roll-in entry (used in guided tour tooltips entries)
+.roll-in() {
+    0% {
+        opacity: 0;
+        .transform(translateX(100%) rotate(120deg));
+    }
+    100%
+    {
+        opacity: 1;
+        .transform(translateX(0px) rotate(0deg));
+    }
+}
+@-webkit-keyframes roll-in {.roll-in;}
+@-moz-keyframes roll-in {.roll-in;}
+@-ms-keyframes roll-in {.roll-in;}
+@-o-keyframes roll-in {.roll-in;}
+@keyframes roll-in {.roll-in;}
+
+
+// animation to make a roll-out entry
+.roll-out() {
+    0% {
+        opacity: 1;
+        .transform(translateX(0px) rotate(0deg));
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0;
+        .transform(translateX(150%) rotate(120deg));
+    }
+}
+@-webkit-keyframes roll-out {.roll-out;}
+@-moz-keyframes roll-out {.roll-out;}
+@-ms-keyframes roll-out {.roll-out;}
+@-o-keyframes roll-out {.roll-out;}
+@keyframes roll-out {.roll-out;}
+
+
+// animation with a fade-in entry sliding from the top
+.fade-in-down() {
+    0% {
+        opacity: 0;
+        .transform(translateY(-10px));
+    }
+
+    100% {
+        opacity: 1;
+        .transform(translateY(0));
+    }
+}
+@-webkit-keyframes fade-in-down {.fade-in-down;}
+@-moz-keyframes fade-in-down {.fade-in-down;}
+@-ms-keyframes fade-in-down {.fade-in-down;}
+@-o-keyframes fade-in-down {.fade-in-down;}
+@keyframes fade-in-down {.fade-in-down;}
+
+
+// animation with a fade-in entry sliding from the top
+.fade-in-top() {
+    0% {
+        opacity: 0;
+        .transform(translateY(20px));
+    }
+
+    100% {
+        opacity: 1;
+        .transform(translateY(0));
+    }
+}
+@-webkit-keyframes fade-in-top {.fade-in-top;}
+@-moz-keyframes fade-in-top {.fade-in-top;}
+@-ms-keyframes fade-in-top {.fade-in-top;}
+@-o-keyframes fade-in-top {.fade-in-top;}
+@keyframes fade-in-top {.fade-in-top;}
+
+
+// animation with a fade-in entry sliding from the left
+.fade-in-left() {
+    0% {
+        opacity: 0;
+        .transform(translateX(-10px));
+    }
+
+    100% {
+        opacity: 1;
+        .transform(translateX(0));
+    }
+}
+@-webkit-keyframes fade-in-left {.fade-in-left;}
+@-moz-keyframes fade-in-left {.fade-in-left;}
+@-ms-keyframes fade-in-left {.fade-in-left;}
+@-o-keyframes fade-in-left {.fade-in-left;}
+@keyframes fade-in-left {.fade-in-left;}
+
+// animation with a fade-in entry sliding from the right
+.fade-in-right() {
+    0% {
+        opacity: 0;
+        .transform(translateX(10px));
+    }
+
+    100% {
+        opacity: 1;
+        .transform(translateX(0));
+    }
+}
+@-webkit-keyframes fade-in-right {.fade-in-right;}
+@-moz-keyframes fade-in-right {.fade-in-right;}
+@-ms-keyframes fade-in-right {.fade-in-right;}
+@-o-keyframes fade-in-right {.fade-in-right;}
+@keyframes fade-in-right {.fade-in-right;}
+
+
+// Animation to reveal the element by making it grow (used in the loader)
+.reveal() {
+    from { .transform(scale(0.001)); }
+    to { .transform(scale(1)); }
+}
+@-webkit-keyframes reveal {.reveal();}
+@-moz-keyframes reveal {.reveal();}
+@-ms-keyframes reveal {.reveal();}
+@-o-keyframes reveal {.reveal();}
+@keyframes reveal {.reveal();}
+
+
+// Animation to make an element slide to the right (used in the loader)
+.slide(@translateX) {
+    to { .transform(translateX(@translateX)); }
+}
+@-webkit-keyframes slide {.slide(7px);}
+@-moz-keyframes slide {.slide(7px);}
+@-ms-keyframes slide {.slide(7px);}
+@-o-keyframes slide {.slide(7px);}
+@keyframes slide {.slide(7px);}
+
+// Animation to make background color shimmer (used in loading card)
+.shimmer() {
+    0% {
+        background-position: -100px 0
+    }
+    100% {
+        background-position: 100px 0
+    }
+}
+@-webkit-keyframes shimmer {.shimmer;}
+@-moz-keyframes shimmer {.shimmer;}
+@-ms-keyframes shimmer {.shimmer;}
+@-o-keyframes shimmer {.shimmer;}
+@keyframes shimmer {.shimmer;}
+
+// Animation with a strong bouncing effect
+.animate-bounce-in() {
+    /* easeinoutback */
+    .transition(all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550));
+    .transition-timing(cubic-bezier(0.680, -0.550, 0.265, 1.550));
+}
+
+
+// Animation with an ease-in effect (used to move the arrow of the guided tour)
+.animate-arrow-in() {
+    /* easeinoutback */
+    .transition(all 800ms cubic-bezier(0.190, 1.000, 0.220, 1.000));
+    .transition-timing(cubic-bezier(0.190, 1.000, 0.220, 1.000));
+}
+
+// Delayed sweep animation of row items from left to right (param: # of items per row)
+.delay-sweep(@n, @i: 1) when (@i =< @n) {
+    &:nth-of-type(@{n}n + @{i}) {
+        animation-delay: (0ms + (@i * 50));
+    }
+    .delay-sweep(@n, (@i + 1));
+}
+
+// Animation that fades in/out text
+// * Used in home page title
+.fade-in-out-text-1() {
+    0% {
+        color: rgba(255, 255, 255, 0);
+    }
+    13% {
+        color: rgba(255, 255, 255, 0);
+    }
+    14% {
+        color: #333333;
+    }
+    90% {
+        color: #333333;
+    }
+    95% {
+        color: rgba(255, 255, 255, 0);
+    }
+    100% {
+        .user-select(none);
+        color: rgba(255, 255, 255, 0);
+    }
+}
+@-webkit-keyframes fade-in-out-text-1 {.fade-in-out-text-1;}
+@-moz-keyframes fade-in-out-text-1 {.fade-in-out-text-1;}
+@-ms-keyframes fade-in-out-text-1 {.fade-in-out-text-1;}
+@-o-keyframes fade-in-out-text-1 {.fade-in-out-text-1;}
+@keyframes fade-in-out-text-1 {.fade-in-out-text-1;}
+
+// Animation that fades in/out text
+// * Used in home page subtitle
+.fade-in-out-text-2() {
+    0% {
+        color: rgba(255, 255, 255, 0);
+    }
+    12% {
+        color: rgba(255, 255, 255, 0);
+    }
+    13% {
+        color: #333333;
+    }
+    85% {
+        color: #333333;
+    }
+    90% {
+        color: rgba(255, 255, 255, 0);
+    }
+    100% {
+        .user-select(none);
+        color: rgba(255, 255, 255, 0);
+    }
+}
+@-webkit-keyframes fade-in-out-text-2 {.fade-in-out-text-2;}
+@-moz-keyframes fade-in-out-text-2 {.fade-in-out-text-2;}
+@-ms-keyframes fade-in-out-text-2 {.fade-in-out-text-2;}
+@-o-keyframes fade-in-out-text-2 {.fade-in-out-text-2;}
+@keyframes fade-in-out-text-2 {.fade-in-out-text-2;}
+
+// Animation that fades in/out text
+// * Used in Enlite search placeholder
+.fade-in-out-text-placeholder() {
+    0% {
+        color: rgba(255, 255, 255, 0);
+    }
+    10% {
+        color: #999;
+    }
+    90% {
+        color: #999;
+    }
+    100% {
+        .user-select(none);
+        color: rgba(255, 255, 255, 0);
+    }
+}
+@-webkit-keyframes fade-in-out-text-placeholder {.fade-in-out-text-placeholder;}
+@-moz-keyframes fade-in-out-text-placeholder {.fade-in-out-text-placeholder;}
+@-ms-keyframes fade-in-out-text-placeholder {.fade-in-out-text-placeholder;}
+@-o-keyframes fade-in-out-text-placeholder {.fade-in-out-text-placeholder;}
+@keyframes fade-in-out-text-placeholder {.fade-in-out-text-placeholder;}
+
+// Animation where a block fades + slides in from the right and out to the right
+// * Used in home page title/subtitle
+.sliding-block() {
+    0% {
+        .transform(translateX(150%));
+        opacity: 0;
+    }
+    9% {
+        border-radius: ~'12px 0 0 12px / 50% 0 0 50%';
+    }
+    15% {
+        .transform(translateX(0));
+        opacity: 1;
+        border-radius: ~'4px 0 0 4px / 50% 0 0 50%';
+    }
+    17% {
+        border-radius: 0;
+    }
+    25% {
+        .transform(translateX(0) scaleX(1));
+        opacity: 1;
+        border-radius: 0;
+    }
+    35% {
+        .transform(translateX(0) scaleX(1));
+        opacity: 1;
+        border-radius: 0;
+    }
+    42% {
+        opacity: 1;
+        border-radius: ~'0 12px 12px 0 / 0 50% 50% 0';
+    }
+    50% {
+        .transform(translateX(150%) scaleX(1.2));
+        opacity: 0;
+        border-radius: ~'0 12px 12px 0 / 0 50% 50% 0';
+    }
+}
+@-webkit-keyframes sliding-block {.sliding-block;}
+@-moz-keyframes sliding-block {.sliding-block;}
+@-ms-keyframes sliding-block {.sliding-block;}
+@-o-keyframes sliding-block {.sliding-block;}
+@keyframes sliding-block {.sliding-block;}
+
+.slide-up() {
+    0% {
+        .transform(translate(-50%, 100%));
+    }
+
+    10% {
+        .transform(translate(-50%, -16px));
+    }
+
+    90% {
+        .transform(translate(-50%, -16px));
+    }
+
+    100% {
+        .transform(translate(-50%, 100%));
+    }
+}
+@-webkit-keyframes slide-up {.slide-up;}
+@-moz-keyframes slide-up {.slide-up;}
+@-ms-keyframes slide-up {.slide-up;}
+@-o-keyframes slide-up {.slide-up;}
+@keyframes slide-up {.slide-up;}
+
+.slide-up-animation(@t) {
+    .animation-duration(@t);
+    .animation-name(slide-up);
+    .animation-timing-function(ease-in-out);
+}
+
+
+.grow-roll {
+    0% {
+        transform: none;
+    }
+    80% {
+        .transform(scale(1.3) rotateZ(-20deg))
+    }
+    100% {
+        transform: none;
+    }
+}
+@-webkit-keyframes grow-roll {.grow-roll;}
+@-moz-keyframes grow-roll {.grow-roll;}
+@-ms-keyframes grow-roll {.grow-roll;}
+@-o-keyframes grow-roll {.grow-roll;}
+@keyframes grow-roll {.grow-roll;}

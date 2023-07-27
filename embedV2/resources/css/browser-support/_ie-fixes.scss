@@ -1,0 +1,702 @@
+//  Copyright: ThoughtSpot Inc. 2013-2016
+//  Author: Jonathan Moreira (jonathan@thoughtspot.com)
+
+//  @fileoverview Bug fixes for IE9 and above.
+
+// All the following fixes apply to IE
+
+.ie {
+    // 'p' and 'q' are cut off
+
+    small {
+        overflow: visible;
+    }
+
+    .bk-login {
+
+        .bk-login-form-container {
+            max-width: 475px !important;
+        }
+
+        .bk-login-background {
+            background: url('/resources/img/login-hero/login-background.jpg') repeat center;
+        }
+    }
+
+    .bk-list-content,
+    .bk-list {
+
+        ul {
+            // IE adds some pixels in the list, making it overflow
+            // by adding a small bottom margin, overflowing is prevented
+            margin-bottom: 5px !important;
+        }
+    }
+
+    .bk-related-insights-section {
+        display: none;
+    }
+
+    .bk-summary {
+        // Fixes the IE arrow of the aggregate selector apperaing on top of the text
+
+        select.bk-headline-aggregate {
+            height: 17px !important;
+            padding-right: 3px !important;
+            max-width: 170px !important;
+            margin-left: 7px !important;
+            line-height: 12px !important;
+            font-weight: 500 !important;
+        }
+
+        // Removes our custom arrow as IE force to use their ugly own (temporary fix see todo below)
+        // TODO(Jonathan and Vibhor): implement a custom select drodpown that should be consistent on every browser
+
+        select:hover {
+            background: none !important;
+            border-radius: 1px !important;
+        }
+    }
+
+    .bk-range-filter,
+    .bk-date-filter {
+
+        .bk-filter-op-selector {
+            outline: none !important;
+            padding-right: 0 !important;
+            padding-left: 1px !important;
+            width: 42px !important;
+            height: 23px !important;
+            line-height: 20px !important;
+            background: none !important;
+            font-size: 10px !important;
+        }
+
+        input[ type = 'text' ] {
+            height: 23px !important;
+            width: 83px !important;
+            line-height: 10px !important;
+        }
+    }
+
+    .bk-pinboard-drop-down {
+
+        .bk-new-pinboard-input {
+
+            input.bk-input {
+                line-height: 13px !important; // Fixes the text being cropped in the "new pinboard" input
+            }
+        }
+    }
+
+    .bk-pinboard-answer {
+
+        .bk-pinboard-tile {
+
+            .bk-pinboard-viz-card-container {
+                @include br-gray;
+            }
+        }
+    }
+
+    .bk-pinboard-card:not( :hover ) {
+
+        .bk-action-list-external-button:not( .active ) {
+            visibility: hidden;
+            opacity: 0;
+            transform: translateX(4px);
+        }
+    }
+
+    // Fixes the shadow on sage dropdown for IE
+
+    .bk-sage-dropdown-wrapper {
+
+        .bk-sage-language-dropdown-wrapper {
+            box-shadow: 0 2px 4px rgba(rd-color('black', 'toned'), .5) !important;
+        }
+
+        .bk-sage-data-dropdown-wrapper {
+
+            .bk-header {
+                box-shadow: 0 2px 4px rgba(rd-color('black', 'toned'), .18) !important;
+            }
+        }
+
+        .bk-sage-explore {
+            box-shadow: 0 2px 4px rgba(rd-color('black', 'toned'), .5) !important;
+        }
+
+        .ui-autocomplete {
+            box-shadow: 0 2px 4px rgba(rd-color('black', 'toned'), .5) !important;
+        }
+    }
+
+    .bk-dialog {
+
+        .bk-dialog-field {
+
+            input {
+                line-height: 20px !important; // Fixes the vertical aligment of the text inside the input
+            }
+
+            // Fixes the checkbox not appearing on IE9-10
+
+            ul.bk-checkbox-list {
+
+                input[ type = 'checkbox' ] {
+                    width: 15px !important;
+                    height: 15px !important;
+                    margin-top: 5px !important;
+                    margin-bottom: 8px !important;
+                    margin-right: 8px !important;
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
+                }
+            }
+        }
+    }
+
+    // Plus Icon slightly off-center
+
+    .bk-share-dialog {
+
+        .bk-plus-icon {
+            box-sizing: content-box;
+        }
+    }
+
+    // Title input in Edit modal for answers on a pinboard is improperly sized
+
+    .bk-dialog {
+
+        .bk-title-input {
+            box-sizing: content-box;
+        }
+    }
+
+    // Fixes SpotIQ Customize Analysis form container size
+
+    .bk-a3-algorithm-customizer {
+
+        .bk-section {
+
+            .bk-algorithm-customization {
+
+                .bk-parameters-container,
+                .bk-settings-container {
+                    box-sizing: content-box;
+                }
+            }
+        }
+    }
+
+    // Fixes the top-padding of the tooltip.bottom on IE9 and IE10
+
+    .tooltip.bottom {
+
+        .tooltip-inner {
+            padding-top: 2px !important;
+        }
+    }
+
+    // IE 10 behaves badly if line-height is > height.
+    // Other browsers work ok
+    // Would be good to look at the styles and fix theses case.
+
+    .slick-cell {
+
+        input {
+            line-height: 12px;
+        }
+    }
+
+    .bk-sage {
+
+        .bk-sage-inner.tokenizer {
+            display: block;
+            line-height: 28px;
+
+            .token {
+
+                &:hover::after {
+                    line-height: 14px;
+                }
+            }
+
+            .separator {
+
+                &.bk-edited-node {
+                    transform: none;
+                    transition: none;
+                }
+
+                &.bk-edited-node ~ .token {
+                    transform: translate3d(8px, 0, 0);
+                    transition: transform .2s ease-in;
+                }
+
+                &.bk-edited-node ~ .separator {
+                    transform: translate3d(8px, 0, 0);
+                    transition: transform .2s ease-in;
+                }
+            }
+        }
+
+        // Sage suggestions dropdown
+
+        .bk-suggestion-dropdown {
+
+            .bk-suggestion-row {
+                width: 100%;
+            }
+        }
+    }
+
+    .bk-data-viz-content {
+
+        .bk-viz-chart {
+
+            .bk-chart {
+
+                .bk-sankey-chart {
+                    overflow-y: visible;
+                }
+            }
+
+            .chart-container.bk-horizontal-layout {
+                display: flex;
+
+                .bk-chart-legend.bk-legend-horizontal {
+                    width: 100%;
+                    height: 70px;
+                    display: table;
+                    table-layout: fixed;
+
+                    .bk-legend {
+                        display: table-row;
+
+                        .bk-legend-item-container {
+                            display: table-cell;
+                        }
+                    }
+                }
+            }
+        }
+
+        .bk-headline-viz {
+
+            .bk-range-summary {
+                max-width: 100%;
+            }
+        }
+    }
+
+    // The following css block has been added to implement an alternate
+    // non-flex based layout hierarchy for the table visualization in answers.
+    // This is only for a purpose for a hotfix and in long term we want need
+    // an alternative solution to the problem.
+
+    .answer-document {
+        display: block;
+        width: 100%;
+        height: 100%;
+
+        .answer-view {
+            display: block;
+            width: 100%;
+            height: 100%;
+
+            .bk-answer-page-current-index {
+                display: block;
+                width: 100%;
+                height: 100%;
+
+                .bk-answer-page-container {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+
+                    .bk-answer-page {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+
+                        .bk-data-panel {
+                            display: inline-block;
+                            width: 300px;
+                            height: 100%;
+                            float: left;
+                            z-index: 2;
+
+                            .bk-sage-data {
+                                height: calc(#{'100% - 40px'});
+
+                                .bk-header-container {
+                                    height: 60px;
+                                }
+
+                                .bk-sources-container {
+                                    height: 60px;
+                                }
+
+                                .bk-columns-container {
+                                    display: block;
+                                    height: calc(#{'100% - 120px'});
+
+                                    .bk-in-flow-panel-component {
+                                        height: calc(#{'100% - 60px'});
+
+                                        .bk-sage-data-columns {
+                                            display: block;
+                                            height: 100%;
+                                            overflow-y: auto;
+
+                                            .bk-columns-body-section {
+                                                display: block;
+                                                overflow: visible;
+
+                                                ul.bk-source-list {
+                                                    display: block;
+
+                                                    .bk-source-item {
+
+                                                        .bk-column-item {
+                                                            display: block;
+                                                            width: 100%;
+                                                            box-sizing: border-box;
+
+                                                            .bk-column-left-actions {
+                                                                display: inline-block;
+                                                                width: 20px;
+                                                            }
+
+                                                            .bk-label {
+                                                                display: inline-block;
+                                                            }
+
+                                                            .bk-style-icon-filter {
+                                                                display: inline-block;
+                                                                width: 20px;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+
+                                            .bk-columns-footer-section {
+                                                position: absolute;
+                                                bottom: 40px;
+                                                left: 65px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .page-content {
+                            display: inline-block;
+                            width: calc(#{'100% - 35px'});
+                            height: 100%;
+                            margin: 0;
+                            padding: 20px;
+                            float: right;
+                            position: relative;
+
+                            &.should-collapse {
+                                width: calc(#{'100% - 344px'});
+                            }
+
+                            // Required to show sage curtain on top of chart loading [SCAL-50392]
+
+                            .sage-curtain {
+                                z-index: 1001 !important;
+                            }
+
+                            // Required to show sage bar on top of curtain after above [SCAL-50392]
+
+                            .bk-search-panel {
+                                z-index: 1002 !important;
+                            }
+
+                            .bk-answer {
+                                width: 100%;
+                                height: calc(#{'100% - 60px'});
+                            }
+
+                            .bk-answer-content {
+                                @include clearfix;
+
+                                position: relative;
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+
+                                .bk-empty-answer-placeholder-container {
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+
+                                    @include transform(translate(-50%, -50%));
+                                }
+
+                                .bk-answer-edit-panel-container {
+                                    float: right;
+                                    height: 100%;
+                                }
+
+                                .bk-answer-content-viewer-outer {
+                                    height: 100%;
+
+                                    .bk-answer-content-viewer {
+                                        display: block;
+                                        width: auto;
+                                        height: 100%;
+                                        overflow: hidden;
+                                        box-sizing: border-box;
+
+                                        .bk-title-panel {
+                                            position: relative;
+                                        }
+
+                                        .bk-viz-selector {
+                                            margin-bottom: 4px;
+
+                                            &.bk-table-type-selector {
+                                                margin-right: 6px;
+                                            }
+
+                                            &.bk-select-chart-type {
+                                                margin-right: 4px;
+                                            }
+                                        }
+
+                                        .bk-answer-page-filter-panel {
+                                            display: block;
+                                        }
+
+                                        .bk-answer-body {
+                                            display: block;
+                                            height: calc(#{'100% - 36px'});
+
+                                            &.bk-answer-body-with-filter-panel {
+                                                height: calc(#{'100% - 84px'});
+                                            }
+
+                                            .bk-answer-viz-container {
+                                                display: inline-block;
+                                                width: 100%;
+                                                height: calc(#{'100% - 15px'});
+
+                                                &.should-collapse {
+                                                    width: calc(#{'100% - 300px'});
+                                                }
+
+                                                .bk-answer-visualization-viewer {
+                                                    display: block;
+                                                    width: 100%;
+                                                    height: 100%;
+
+                                                    .bk-answer-visualizations {
+                                                        display: block;
+                                                        height: 100%;
+
+                                                        .bk-answer-chart-mode-vizs {
+                                                            height: 100%;
+                                                        }
+
+                                                        .bk-answer-table-mode-vizs {
+                                                            display: block;
+                                                            height: 100%;
+
+                                                            .bk-answer-table-viz-container {
+                                                                display: block;
+                                                                height:
+                                                                    calc(
+                                                                        #{'100% - 98px'}
+                                                                    );
+                                                                margin-bottom: 10px;
+
+                                                                .bk-data-viz {
+                                                                    display: block;
+                                                                    height: 100%;
+
+                                                                    .bk-data-viz-content {
+                                                                        display: block;
+                                                                        height: 100%;
+
+                                                                        .bk-data-viz-table-container {
+                                                                            display: block;
+                                                                            height: 100%;
+
+                                                                            .bk-viz-table {
+                                                                                display: block;
+                                                                                width: 100%;
+                                                                                height: 100%;
+
+                                                                                .bk-table {
+                                                                                    display: block;
+                                                                                    width: 100%;
+                                                                                    height:
+                                                                                        calc(
+                                                                                            #{'100% - 37px'}
+                                                                                        );
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .bk-universal-search {
+
+        .bk-data-panel {
+
+            .bk-search-input {
+                height: 26px !important;
+            }
+        }
+    }
+
+    .bk-pinboard-page-content {
+
+        .content-container {
+
+            .content-container-inner {
+
+                .bk-filter-panel {
+
+                    .bk-filter-list-item {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+
+    .bk-card-tray .card-container-m {
+        @media ( min-width: 775px ) {
+            margin: 0 15px 15px 0 !important;
+
+            &:nth-child( 2n ) {
+                margin: 0 15px 15px 0 !important;
+            }
+
+            &:nth-child( 3n ) {
+                margin: 0 0 15px !important;
+            }
+        }
+
+        @media ( min-width: 1050px ) {
+            margin: 0 16px 16px 0 !important;
+
+            &:nth-child( 3n ) {
+                margin: 0 16px 16px 0 !important;
+            }
+
+            &:nth-child( 4n ) {
+                margin: 0 0 16px !important;
+            }
+        }
+    }
+
+    .bk-object-card .bk-object-footer .bk-stats {
+        display: inline-block;
+
+        img,
+        div:not( .bk-object-favorites ) {
+            display: inline-block;
+        }
+    }
+
+    .bk-insight-card .bk-insight-card-body .bk-insight-title-container .bk-insight-title {
+        white-space: normal !important;
+    }
+
+    .bk-slide-show-navigator-list-item {
+        display: block !important;
+        box-sizing: border-box;
+        font-size: 0;
+
+        .bk-slide-show-navigator-list-item-info {
+            display: inline-block !important;
+            width: 4vw;
+            height: 100%;
+            padding-top: $rd-spacing--scaled-e;
+
+            .bk-slide-show-navigator-list-item-index {
+                display: block !important;
+            }
+
+            .bk-slide-show-navigator-list-item-icon {
+                display: block !important;
+            }
+        }
+
+        .bk-slide-show-navigator-list-item-text {
+            display: inline-block !important;
+            width: calc(100% - 4vw);
+            height: 100%;
+            vertical-align: top;
+            padding-top: $rd-spacing--scaled-j !important;
+        }
+    }
+
+    .bk-dialog-container .bk-dialog.small,
+    .bk-dialog-container .bk-dialog.medium,
+    .bk-dialog-container .bk-dialog.large {
+
+        .modal-body {
+            max-height: calc(90vh - 111px) !important;
+
+            // height of the wrapper - (header + footer)
+        }
+    }
+
+    .bk-table-detail {
+
+        .bk-security-mode {
+
+            .bk-rls-disabled-message {
+                text-align: center;
+            }
+        }
+    }
+
+    .bk-user-profile-pic {
+        width: $rd-spacing--scaled-g;
+        height: $rd-spacing--scaled-g;
+    }
+
+    .bk-data-sources-container {
+        @include flex-grow-shrink-basis(0, 0, auto);
+    }
+
+    .bk-actionable-list .bk-actionable-list-content .bk-actions-header-container .bk-list-search .bk-search-input {
+        @include flex-grow-shrink-basis(0, 0, auto !important);
+    }
+}
+
+// All the following fixes apply to IE9
+
+.ie9 {
+
+    .bk-animate-exit {
+        display: none !important;
+    }
+}

@@ -1,0 +1,25 @@
+// Protocol buffer definition to represent layout configuration for pinboard exports
+
+syntax = "proto2";
+package blink.pinboardExportConfig;
+
+import "./export_config.proto";
+
+message PinboardExportConfig {
+    optional ExportConfig export_config = 1;
+    enum LayoutType {
+        // whole pinboard to be printed,
+        // while maintaining the layout as close as possible to pinboard page
+        PINBOARD = 0;
+        // pinboard will be printed one visualization per page
+        VISUALIZATION = 1;
+    }
+    optional LayoutType layout_type = 2 [default = VISUALIZATION];
+
+    // these options are applicable when 'format' is 'VISUALIZATION'
+    message VisualizationFormatOptions {
+        // adjacent headlines should be grouped together in one page
+        optional bool group_headlines = 1;
+    }
+    optional VisualizationFormatOptions visualization_format_options = 3;
+}

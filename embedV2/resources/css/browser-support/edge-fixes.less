@@ -1,0 +1,45 @@
+.edge {
+  .answer-document {
+    .bk-answer-page {
+      .page-content {
+        position: relative;
+      }
+    }
+  }
+
+  .bk-object-card .bk-object-footer .bk-stats {
+    display: inline-block;
+    div, img {
+      display: inline-block;
+    }
+  }
+
+  .bk-card-tray .card-container-m {
+    @media (min-width: 775px) {
+      margin: 0 15px 15px 0!important;
+      &:nth-child(2n) {
+        margin: 0 15px 15px 0!important;
+      }
+      &:nth-child(3n) {
+        margin: 0 0 15px 0!important;
+      }
+    }
+
+    @media (min-width: 1050px) {
+      margin: 0 16px 16px 0!important;
+      &:nth-child(3n) {
+        margin: 0 16px 16px 0!important;
+      }
+      &:nth-child(4n) {
+        margin: 0 0 16px 0!important;
+      }
+    }
+  }
+}
+
+.line-clamp(@clamp) {
+  .edge & {
+    display: block;
+    .bk-overflow-ellipsis;
+  }
+}

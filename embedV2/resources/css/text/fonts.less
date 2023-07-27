@@ -1,0 +1,211 @@
+// Copyright ThoughtSpot Inc. 2013-2016
+// Jonathan Moreira (jonathan@thoughtspot.com)
+//
+//  @fileoverview Fonts library with variables and classes for the fonts used in the app.
+
+/* Content:
+
+=font-face Gotham Narrow
+=font-face Gotham
+=font-face Source Sans Pro
+=Font family LESS variables
+=Font family classes
+=Font family use case classes
+
+*/
+
+/* =font-face Gotham Narrow
+*************************************************************/
+
+@font-face {
+    font-family: 'Light';
+    src: url('/resources/font/gotham-narrow/light/GothamNarrow-Light.eot');
+    src: url('/resources/font/gotham-narrow/light/GothamNarrow-Light.eot?#iefix') format('embedded-opentype'),
+    url('/resources/font/gotham-narrow/light/GothamNarrow-Light.woff2') format('woff2'),
+    url('/resources/font/gotham-narrow/light/GothamNarrow-Light.woff') format('woff'),
+    url('/resources/font/gotham-narrow/light/GothamNarrow-Light.ttf') format('truetype'),
+    url('/resources/font/gotham-narrow/light/GothamNarrow-Light.svg#GothamNarrow-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url('/resources/font/gotham-narrow/book/GothamNarrow-Book.eot');
+    src: url('/resources/font/gotham-narrow/book/GothamNarrow-Book.eot?#iefix') format('embedded-opentype'),
+    url('/resources/font/gotham-narrow/book/GothamNarrow-Book.woff2') format('woff2'),
+    url('/resources/font/gotham-narrow/book/GothamNarrow-Book.woff') format('woff'),
+    url('/resources/font/gotham-narrow/book/GothamNarrow-Book.ttf') format('truetype'),
+    url('/resources/font/gotham-narrow/book/GothamNarrow-Book.svg#GothamNarrow-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Semibold';
+    src: url('/resources/font/gotham-narrow/medium/GothamNarrow-Medium.eot');
+    src: url('/resources/font/gotham-narrow/medium/GothamNarrow-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/resources/font/gotham-narrow/medium/GothamNarrow-Medium.woff2') format('woff2'),
+    url('/resources/font/gotham-narrow/medium/GothamNarrow-Medium.woff') format('woff'),
+    url('/resources/font/gotham-narrow/medium/GothamNarrow-Medium.ttf') format('truetype'),
+    url('/resources/font/gotham-narrow/medium/GothamNarrow-Medium.svg#GothamNarrow-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url('/resources/font/gotham-narrow/bold/GothamNarrow-Bold.eot');
+    src: url('/resources/font/gotham-narrow/bold/GothamNarrow-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/resources/font/gotham-narrow/bold/GothamNarrow-Bold.woff2') format('woff2'),
+    url('/resources/font/gotham-narrow/bold/GothamNarrow-Bold.woff') format('woff'),
+    url('/resources/font/gotham-narrow/bold/GothamNarrow-Bold.ttf') format('truetype'),
+    url('/resources/font/gotham-narrow/bold/GothamNarrow-Bold.svg#GothamNarrow-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Book';
+    src: url('/resources/font/gotham-narrow/book/GothamNarrow-Book.eot');
+    src: url('/resources/font/gotham-narrow/book/GothamNarrow-Book.eot?#iefix') format('embedded-opentype'),
+    url('/resources/font/gotham-narrow/book/GothamNarrow-Book.woff2') format('woff2'),
+    url('/resources/font/gotham-narrow/book/GothamNarrow-Book.woff') format('woff'),
+    url('/resources/font/gotham-narrow/book/GothamNarrow-Book.ttf') format('truetype'),
+    url('/resources/font/gotham-narrow/book/GothamNarrow-Book.svg#GothamNarrow-Bookd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* =font-face Gotham
+*************************************************************/
+
+@font-face {
+    font-family: 'Gotham-Regular';
+    src: url('/resources/font/gotham/book/Gotham-Book.eot');
+    src: url('/resources/font/gotham/book/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+    url('/resources/font/gotham/book/Gotham-Book.woff2') format('woff2'),
+    url('/resources/font/gotham/book/Gotham-Book.woff') format('woff'),
+    url('/resources/font/gotham/book/Gotham-Book.ttf') format('truetype'),
+    url('/resources/font/gotham/book/Gotham-Book.svg#Gotham-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Semibold';
+    src: url('/resources/font/gotham/medium/Gotham-Medium.eot');
+    src: url('/resources/font/gotham/medium/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/resources/font/gotham/medium/Gotham-Medium.woff2') format('woff2'),
+    url('/resources/font/gotham/medium/Gotham-Medium.woff') format('woff'),
+    url('/resources/font/gotham/medium/Gotham-Medium.ttf') format('truetype'),
+    url('/resources/font/gotham/medium/Gotham-Medium.svg#Gotham-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* =font-face Source Sans Pro
+*************************************************************/
+
+@font-face {
+    font-family: 'SourceSansPro-Light';
+    src: url('/resources/font/source-sans-pro/light/SourceSansPro-Light.eot');
+    src: url('/resources/font/source-sans-pro/light/SourceSansPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('/resources/font/source-sans-pro/light/SourceSansPro-Light.woff2') format('woff2'),
+    url('/resources/font/source-sans-pro/light/SourceSansPro-Light.woff') format('woff'),
+    url('/resources/font/source-sans-pro/light/SourceSansPro-Light.ttf') format('truetype'),
+    url('/resources/font/source-sans-pro/light/SourceSansPro-Light.svg#SourceSansPro-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+30-39; //Applies this font only to numbers
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Regular';
+    src: url('/resources/font/source-sans-pro/regular/SourceSansPro-Regular.eot');
+    src: url('/resources/font/source-sans-pro/regular/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/resources/font/source-sans-pro/regular/SourceSansPro-Regular.woff2') format('woff2'),
+    url('/resources/font/source-sans-pro/regular/SourceSansPro-Regular.woff') format('woff'),
+    url('/resources/font/source-sans-pro/regular/SourceSansPro-Regular.ttf') format('truetype'),
+    url('/resources/font/source-sans-pro/regular/SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+30-39; //Applies this font only to numbers
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Semibold';
+    src: url('/resources/font/source-sans-pro/semibold/SourceSansPro-Semibold.eot');
+    src: url('/resources/font/source-sans-pro/semibold/SourceSansPro-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('/resources/font/source-sans-pro/semibold/SourceSansPro-Semibold.woff2') format('woff2'),
+    url('/resources/font/source-sans-pro/semibold/SourceSansPro-Semibold.woff') format('woff'),
+    url('/resources/font/source-sans-pro/semibold/SourceSansPro-Semibold.ttf') format('truetype'),
+    url('/resources/font/source-sans-pro/semibold/SourceSansPro-Semibold.svg#SourceSansPro-Semibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+30-39; //Applies this font only to numbers
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Bold';
+    src: url('/resources/font/source-sans-pro/bold/SourceSansPro-Bold.eot');
+    src: url('/resources/font/source-sans-pro/bold/SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/resources/font/source-sans-pro/bold/SourceSansPro-Bold.woff2') format('woff2'),
+    url('/resources/font/source-sans-pro/bold/SourceSansPro-Bold.woff') format('woff'),
+    url('/resources/font/source-sans-pro/bold/SourceSansPro-Bold.ttf') format('truetype'),
+    url('/resources/font/source-sans-pro/bold/SourceSansPro-Bold.svg#SourceSansPro-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+30-39; //Applies this font only to numbers
+}
+
+/* =Font family LESS variables
+*************************************************************/
+
+//Gotham Narrow
+@font-family-light: Light, helvetica neue, helvetica, Arial, sans-serif;
+@font-family-regular: Regular, helvetica neue, helvetica, Arial, sans-serif;
+@font-family-semibold: Semibold, helvetica neue, helvetica, Arial, sans-serif;
+@font-family-bold: Bold, helvetica neue, helvetica, Arial, sans-serif;
+@font-family-book: Book, helvetica neue, helvetica, Arial, sans-serif;
+
+//Gotham
+@font-family-gotham-regular: Gotham-Regular, helvetica neue, helvetica, Arial, sans-serif;
+@font-family-gotham-semibold: Gotham-Semibold, helvetica neue, helvetica, Arial, sans-serif;
+
+//Source Sans Pro
+@font-family-source-sans-pro-light: SourceSansPro-Light, Light, helvetica neue, helvetica, Arial, sans-serif;
+@font-family-source-sans-pro-regular: SourceSansPro-Regular, Regular, helvetica neue, helvetica, Arial, sans-serif;
+@font-family-source-sans-pro-semibold: SourceSansPro-Semibold, Semibold, helvetica neue, helvetica, Arial, sans-serif;
+@font-family-source-sans-pro-bold: SourceSansPro-Bold, Bold, helvetica neue, helvetica, Arial, sans-serif;
+
+/* =Font family classes
+*************************************************************/
+
+// Mixin to make numbers monospaced supported in Chrome, FF & IE
+.numeric-monospaces-setting {
+    font-variant-numeric: tabular-nums;
+    -moz-font-feature-settings: "tnum";
+    -webkit-font-feature-settings: "tnum";
+    font-feature-settings: "tnum"; //Used in newer versions of Chrome, FF and IE10 & above
+}
+
+// Gotham Narrow
+// Default font style
+.font-family-light     { font-family: @font-family-light; letter-spacing: 0.3px; .numeric-monospaces-setting();}
+.font-family-regular   { font-family: @font-family-regular; letter-spacing: 0.3px; .numeric-monospaces-setting();}
+.font-family-semibold  { font-family: @font-family-semibold; letter-spacing: 0.3px; .numeric-monospaces-setting();}
+.font-family-bold      { font-family: @font-family-bold;  letter-spacing: 0.3px; .numeric-monospaces-setting();}
+.font-family-book      { font-family: @font-family-book;  letter-spacing: 0.3px; .numeric-monospaces-setting();}
+
+// Gotham
+// Used only for page titles, answer & pinboard titles
+.font-family-gotham-regular   { font-family: @font-family-gotham-regular; letter-spacing: 0; .numeric-monospaces-setting();}
+.font-family-gotham-semibold  { font-family: @font-family-gotham-semibold; letter-spacing: 0; .numeric-monospaces-setting();}
+
+// Source Sans Pro
+// Used in Safari for numbers because font-feature-settings isn't supported in Safari
+.font-family-source-sans-pro-light { font-family: @font-family-source-sans-pro-light; letter-spacing: 0.3px;}
+.font-family-source-sans-pro-regular { font-family: @font-family-source-sans-pro-regular; letter-spacing: 0.3px;}
+.font-family-source-sans-pro-semibold { font-family: @font-family-source-sans-pro-semibold; letter-spacing: 0.3px;}
+.font-family-source-sans-pro-bold { font-family: @font-family-source-sans-pro-bold; letter-spacing: 0.3px;}

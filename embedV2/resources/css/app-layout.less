@@ -1,0 +1,57 @@
+.bk-powered-footer-layout {
+    .flex-grow-shrink-basis(0, 0, 20px);
+    .flex(row);
+    .flex-justify(center);
+    .flex-align(center);
+    width: 100%;
+}
+
+.bk-app-controller-container {
+    z-index: 0;
+    .bk-vertical-flex-container-sized;
+    .bk-app-container {
+        .bk-vertical-flex-container-sized();
+        .bk-app-content {
+            .bk-vertical-flex-container-sized();
+
+            .bk-page-wrapper {
+                // SCAL-22587:
+                // Present mode was hidden behind the nav bar. To fix this in IE we need
+                // make add the position relative.
+                .ie & {
+                    position: relative;
+                }
+                .bk-vertical-flex-container-sized();
+
+                //TODO: Check in embed scenario
+                &.bk-without-nav {
+                    height: 100%;
+                    margin-top: 0;
+                }
+                .bk-primary-nav-container {
+
+                    // Edge browser requires position to be explicitly defined to create
+                    // stacking context. Without this 'Present view' overlay is displayed
+                    // below primary nav even though z-index is set
+                    position: relative;
+                    .flex-grow-shrink-basis(0, 0, 48px);
+                }
+
+                .bk-app-canvas {
+                    .bk-vertical-flex-container-sized;
+                }
+
+                .bk-page-app-canvas {
+                    position: relative;
+                    .bk-vertical-flex-container-sized();
+                }
+
+                .bk-powered-by-ts-ribbon {
+                    .bk-powered-footer-layout();
+                    .bg-white;
+                    border-top: 1px solid @grey2;
+                }
+            }
+        }
+    }
+}

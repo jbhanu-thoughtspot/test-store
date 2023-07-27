@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Chart Icon/SpotIQ Scatter</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chart-Icon/SpotIQ-Scatter">
+            <g id="SpotIQ-Scatter">
+                <g id="scatter_chart_24-copy-3">
+                    <rect id="Rectangle-path" x="0" y="0" width="48" height="47.98"></rect>
+                    <circle id="Oval" fill="#DD5970" fill-rule="nonzero" cx="13" cy="19" r="3"></circle>
+                    <circle id="Oval" fill="#DD5970" fill-rule="nonzero" cx="20" cy="23" r="3"></circle>
+                    <circle id="Oval" fill="#DE576F" fill-rule="nonzero" cx="13" cy="35" r="3"></circle>
+                    <circle id="Oval" fill="#DE576F" fill-rule="nonzero" cx="20" cy="31" r="3"></circle>
+                    <circle id="Oval" fill="#DE576F" fill-rule="nonzero" cx="13" cy="27" r="3"></circle>
+                    <circle id="Oval" fill="#DD5970" fill-rule="nonzero" cx="27" cy="27" r="3"></circle>
+                    <circle id="Oval" fill="#D1D1D1" fill-rule="nonzero" cx="27" cy="19" r="3"></circle>
+                    <circle id="Oval-Copy" fill="#D1D1D1" fill-rule="nonzero" cx="20" cy="15" r="3"></circle>
+                    <circle id="Oval" fill="#D1D1D1" fill-rule="nonzero" cx="34" cy="23" r="3"></circle>
+                    <circle id="Oval" fill="#D1D1D1" fill-rule="nonzero" cx="34" cy="15" r="3"></circle>
+                    <circle id="Oval" fill="#D1D1D1" fill-rule="nonzero" cx="41" cy="11" r="3"></circle>
+                    <circle id="Oval" fill="#D1D1D1" fill-rule="nonzero" cx="27" cy="11" r="3"></circle>
+                    <circle id="Oval" fill="#D1D1D1" fill-rule="nonzero" cx="34" cy="7" r="3"></circle>
+                </g>
+            </g>
+            <polyline id="Path-3" stroke="#757575" points="4.5 4 4.5 43.5 44 43.5"></polyline>
+        </g>
+    </g>
+</svg>

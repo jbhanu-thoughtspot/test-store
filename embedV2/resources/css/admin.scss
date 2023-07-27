@@ -1,0 +1,79 @@
+// Import all relevant css files.
+// @import "../../.tmp/lib";
+
+// RADIANT base scss
+@import '../node_modules/@thoughtspot/radiant/widgets/base/base';
+
+// SETTINGS - order is important
+@import 'assorted';
+@import '../node_modules/@thoughtspot/radiant/widgets/card/base-card/base-card';
+@import '../../src/common/widgets/buttons/base-button/buttons';
+@import 'common';
+@import 'responsive';
+@import 'tooltip';
+@import 'webkit-scrollbar';
+@import 'browser-support/edge-fixes';
+@import 'browser-support/ff-fixes';
+@import 'browser-support/ie-fixes';
+@import 'browser-support/safari-fixes';
+
+// Common Widgets
+@import '../node_modules/@thoughtspot/radiant/widgets/radio-button/radio-button';
+
+// Blink Deps
+
+// Admin Modules
+
+// Common widgets
+@import '../../src/admin_app/common/nav/nav-bar';
+@import '../../src/admin_app/common/modal/modal';
+@import '../../src/admin_app/common/context-menu/context-menu';
+@import '../../src/admin_app/common/sidebar/sidebar';
+@import '../../src/admin_app/common/header-with-actions/header-with-actions';
+@import '../../src/admin_app/common/empty-config/empty-config';
+@import '../../src/admin_app/common/modal-alert/modal-alert-content';
+@import '../../src/admin_app/common/form/form';
+@import '../../src/admin_app/common/config-display/config-display';
+@import '../../src/admin_app/common/status-cards/status-card';
+@import '../../src/admin_app/common/list/list';
+@import '../../src/admin_app/common/individual-card/individual-card';
+
+// Module specific csss
+@import '../../src/admin_app/modules/config/config-container/config-container';
+@import '../../src/admin_app/modules/config/smtp/smtp';
+@import '../../src/admin_app/modules/config/ad-test-component/ad-test';
+@import '../../src/admin_app/modules/config/home/home';
+@import '../../src/admin_app/modules/config/blink-admin/blink-admin.scss';
+@import '../../src/admin_app/base/app-component';
+
+// Radiant components
+@import '../node_modules/@thoughtspot/radiant/widgets/icons/svg-icon/svg-icon';
+
+html,
+body {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.ad-app-container {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.common {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.wrapper {
+    flex: 1;
+    flex-direction: column;
+}

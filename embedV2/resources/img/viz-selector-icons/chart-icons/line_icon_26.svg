@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Chart Icon/Line</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chart-Icon/Line">
+            <g id="Recent-Tile-4-Chart-1">
+                <rect id="Rectangle-path" x="0" y="0" width="48" height="48"></rect>
+                <polyline id="Path-3" stroke="#757575" points="4.5 4 4.5 43.5 44 43.5"></polyline>
+                <polyline id="Shape" stroke="#68B8E3" stroke-width="2" points="8.97597927 33.5119807 16.8105322 17.0799318 25.1010645 36.0751419 33.350144 21.0538251 41.5163183 28.246572"></polyline>
+                <polyline id="Shape" stroke="#DE576F" stroke-width="2" points="8.52 22.1665153 16.3338266 38.38 25.1010645 23.0407718 33.3294177 8.13867188 41.6821289 14.2187286"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

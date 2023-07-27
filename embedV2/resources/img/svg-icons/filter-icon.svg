@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Filter Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="INVISION-MODEL-2---SMALLER-TYPE,-GRAY-BODY-TEXT-AND-DESCRIPTIONS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-140.000000, -349.000000)">
+        <g id="Filter-Bar" transform="translate(116.000000, 325.000000)">
+            <g id="Filter-Icon" transform="translate(24.000000, 24.000000)">
+                <circle id="Oval-6" fill="#D3DBE0" cx="12" cy="12" r="12"></circle>
+                <path d="M18.6061114,6.03703653 C18.5875934,6.01851827 18.5690753,6 18.5320393,6 L5.08796057,6 C5.05092454,6 5.01388851,6.01851827 5.01388851,6.03703653 C4.9953705,6.0555548 4.9953705,6.09259133 5.01388851,6.11110959 L10.3841128,14.7035849 L10.3841128,20.4627655 L10.3841128,20.4998021 C10.4026308,20.5183203 10.4211488,20.5183203 10.4581849,20.5183203 C11.9951801,20.5183203 13.2358871,19.2775965 13.2358871,17.7405805 L13.2358871,14.6850666 L18.6061114,6.11110959 C18.6246294,6.09259133 18.6246294,6.0555548 18.6061114,6.03703653" id="Fill-1" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

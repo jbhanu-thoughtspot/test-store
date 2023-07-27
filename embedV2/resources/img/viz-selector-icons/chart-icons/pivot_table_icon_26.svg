@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pivot_table_icon_24">
+            <polygon id="Shape" points="0 0 48 0 48 47.98 0 47.98"></polygon>
+            <polygon id="Shape" fill="#388DBA" points="4 4 12 4 12 12 4 12"></polygon>
+            <polygon id="Shape" fill="#68B8E3" points="4 14 12 14 12 42 4 42"></polygon>
+            <polygon id="Shape" fill="#C7EBFF" points="14.08 4 42 4 42 12 14.08 12"></polygon>
+            <path d="M42.7,21.28 L38,16.7 L33.32,21.28 L34.72,22.7 L37,20.48 L37,22.1 C37.0000074,30.3322842 30.332277,37.0089648 22.1,37.02 L20.4,37.02 L22.66,34.7 L21.24,33.3 L16.68,38 L21.26,42.68 L22.68,41.28 L20.48,39.04 L22.08,39.04 C31.4200892,39.0289792 38.9889792,31.4600892 39,22.12 L39,20.5 L41.28,22.72 L42.7,21.28 Z" id="Shape" fill="#333333"></path>
+        </g>
+    </g>
+</svg>

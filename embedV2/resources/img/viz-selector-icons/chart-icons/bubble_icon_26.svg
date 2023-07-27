@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Chart Icon/Bubble</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chart-Icon/Bubble">
+            <rect id="Rectangle-path" x="0" y="0" width="48" height="47.98"></rect>
+            <g id="bubble_chart_24-copy-2" transform="translate(8.000000, 3.000000)" fill-rule="nonzero">
+                <circle id="Oval" fill="#F5CF5F" cx="28.94" cy="6.94" r="6"></circle>
+                <circle id="Oval" fill="#5776AD" cx="15.94" cy="8.94" r="4.28"></circle>
+                <circle id="Oval" fill="#DE576F" cx="4.76" cy="31.82" r="4.16"></circle>
+                <circle id="Oval" fill="#68B8E3" cx="19.94" cy="23.94" r="9"></circle>
+            </g>
+            <polyline id="Path-3" stroke="#757575" points="4.5 4 4.5 43.5 44 43.5"></polyline>
+        </g>
+    </g>
+</svg>

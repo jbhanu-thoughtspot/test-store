@@ -1,0 +1,36 @@
+@mixin bk-capture-info-div {
+    display: none;
+}
+
+.bk-blue-capture-btn {
+    @include rd-font--p-small-bold;
+
+    color: rd-color('white');
+    height: 22px;
+    width: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 3px;
+    padding-left: 0;
+    cursor: pointer;
+    border-radius: 3px;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    background-color: rd-color('blue');
+    text-shadow: 0 1px 0 rgba(rd-color('black', 'toned'), .18);
+
+    &.clicked {
+        box-shadow: none;
+    }
+
+    &:hover {
+        background-color: rd-color('blue', 'shade-1');
+        border: 1px solid rd-color('blue', 'shade-2');
+    }
+}
+
+.bk-answer-capture-btn {
+    position: fixed;
+    right: 170px;
+    top: 13px;
+}

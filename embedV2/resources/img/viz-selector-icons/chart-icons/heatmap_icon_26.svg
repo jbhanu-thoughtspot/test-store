@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Chart Icon/Heatmap</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chart-Icon/Heatmap">
+            <g id="heatmap_chart_24-copy">
+                <rect id="Rectangle-path" x="0" y="0" width="48" height="47.98"></rect>
+                <g id="Group" transform="translate(6.000000, 6.000000)" fill="#68B8E3" fill-rule="nonzero">
+                    <rect id="Rectangle-path" opacity="0.7" x="0" y="0" width="7.578" height="7.57894737"></rect>
+                    <rect id="Rectangle-path" opacity="0.5" x="9.468" y="0" width="7.578" height="7.57894737"></rect>
+                    <rect id="Rectangle-path" opacity="0.7" x="18.954" y="0" width="7.578" height="7.57894737"></rect>
+                    <rect id="Rectangle-path" opacity="0.2" x="28.422" y="0" width="7.578" height="7.57894737"></rect>
+                    <rect id="Rectangle-path" opacity="0.9" x="0" y="9.47368421" width="7.578" height="7.57894737"></rect>
+                    <rect id="Rectangle-path" opacity="0.7" x="9.468" y="9.47368421" width="7.578" height="7.57894737"></rect>
+                    <rect id="Rectangle-path" opacity="0.5" x="18.954" y="9.47368421" width="7.578" height="7.57894737"></rect>
+                    <rect id="Rectangle-path" opacity="0.4" x="28.422" y="9.47368421" width="7.578" height="7.57894737"></rect>
+                    <rect id="Rectangle-path" opacity="0.7" x="0" y="18.9473684" width="7.578" height="7.57894737"></rect>
+                    <rect id="Rectangle-path" opacity="0.9" x="9.468" y="18.9473684" width="7.578" height="7.57894737"></rect>
+                    <rect id="Rectangle-path" x="18.954" y="18.9473684" width="7.578" height="7.57894737"></rect>
+                    <rect id="Rectangle-path" opacity="0.8" x="28.422" y="18.9473684" width="7.578" height="7.57894737"></rect>
+                    <rect id="Rectangle-path" x="0" y="28.4210526" width="7.578" height="7.57894737"></rect>
+                    <rect id="Rectangle-path" opacity="0.6" x="9.468" y="28.4210526" width="7.578" height="7.57894737"></rect>
+                    <rect id="Rectangle-path" opacity="0.9" x="18.954" y="28.4210526" width="7.578" height="7.57894737"></rect>
+                    <rect id="Rectangle-path" opacity="0.7" x="28.422" y="28.4210526" width="7.578" height="7.57894737"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

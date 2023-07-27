@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Chart Icon/Bar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Chart-Icon/Bar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.899999976">
+        <g id="Column-chart-Copy-3" transform="translate(24.000000, 24.000000) scale(1, -1) rotate(90.000000) translate(-24.000000, -24.000000) ">
+            <rect id="Rectangle-4" x="0" y="0" width="48" height="48"></rect>
+            <g id="Group" transform="translate(4.000000, 4.000000)" fill="#DE576F">
+                <rect id="Rectangle-2-Copy-4" x="0" y="24" width="8" height="12"></rect>
+                <rect id="Rectangle-2-Copy-5" x="10.6666667" y="14" width="8" height="22"></rect>
+                <rect id="Rectangle-2-Copy-6" x="21.3333333" y="0" width="8" height="36"></rect>
+                <rect id="Rectangle-2-Copy-7" x="32" y="10" width="8" height="26"></rect>
+            </g>
+            <path d="M4,43 L44,43" id="Path-2" stroke="#757575"></path>
+        </g>
+    </g>
+</svg>

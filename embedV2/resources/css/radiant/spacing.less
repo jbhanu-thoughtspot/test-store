@@ -1,0 +1,35 @@
+///* ========================================================================
+//   #CORE SETTINGS
+//   ======================================================================== */
+
+// Baseline grid lines height.
+// Every spacing metric should be based on this.
+
+@rd-global-baseline: 4px;
+
+// How many grid lines should our spacing unit variants span?
+// Each value should be an unitless integer.
+
+@rd-global-spacing-unit-factor-a:   1;		// 4px
+@rd-global-spacing-unit-factor-b:  	2;		// 8px
+@rd-global-spacing-unit-factor-c:   3;   	// 12px
+@rd-global-spacing-unit-factor-d:   4; 	// 16px
+@rd-global-spacing-unit-factor-e:	5; 	// 20px
+@rd-global-spacing-unit-factor-f:   6; 	// 24px
+@rd-global-spacing-unit-factor-g:   8;		// 32px
+@rd-global-spacing-unit-factor-h:   12;	// 48px
+
+// Spacing values are determined based on our project’s global baseline grid.
+// It is not recommended that you modify these following variables
+// (it can break our vertical rhythm).
+
+@rd-spacing-unit:   @rd-global-baseline * @rd-global-spacing-unit-factor-e; // 20px
+
+@rd-spacing-a:      @rd-global-baseline * @rd-global-spacing-unit-factor-a; // 4px
+@rd-spacing-b:      @rd-global-baseline * @rd-global-spacing-unit-factor-b; // 8px
+@rd-spacing-c:      @rd-global-baseline * @rd-global-spacing-unit-factor-c; // 12px
+@rd-spacing-d:      @rd-global-baseline * @rd-global-spacing-unit-factor-d; // 16px
+@rd-spacing-e:      @rd-global-baseline * @rd-global-spacing-unit-factor-e; // 20px
+@rd-spacing-f:      @rd-global-baseline * @rd-global-spacing-unit-factor-f; // 24px
+@rd-spacing-g:      @rd-global-baseline * @rd-global-spacing-unit-factor-g; // 32px
+@rd-spacing-h:      @rd-global-baseline * @rd-global-spacing-unit-factor-h; // 48px

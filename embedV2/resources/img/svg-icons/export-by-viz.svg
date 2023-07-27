@@ -1,0 +1,7 @@
+<svg focusable="false" xmlns="http://www.w3.org/2000/svg" width="64" height="48" viewBox="0 0 64 48">
+    <g fill="none" fill-rule="evenodd">
+        <rect width="64" height="48" fill="#FFF" rx="2"/>
+        <rect width="60" height="44" x="2" y="2" fill="#EAEDF2" rx="2"/>
+        <path fill="#F6F8FA" d="M13 29h6v10h-6V29zm11-15h6v25h-6V14zm11 6h6v19h-6V20zm11 2h6v17h-6V22z"/>
+    </g>
+</svg>

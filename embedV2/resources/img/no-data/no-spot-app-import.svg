@@ -1,0 +1,73 @@
+<svg width="140" height="118" viewBox="0 0 140 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M64.4329 -3.99903L71.7662 -3.99903L71.7662 40.9374L83.8141 28.8894L88.9996 34.0749L71.7662 51.3083L71.7662 51.3342L71.7402 51.3342L68.0735 55.0009L47.1475 34.0749L52.3329 28.8894L64.4329 40.9894L64.4329 -3.99903Z" fill="#C0C6CF"/>
+<path d="M109.005 100.184L31.6401 100.184L31.6401 24.6533L109.005 24.6533L109.005 100.184Z" fill="#C0C6CF"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="49" y="24" width="60" height="76">
+<path d="M49.9995 100L109 100L109 24L49.9995 24L49.9995 100Z" fill="#C0C6CF"/>
+</mask>
+<g mask="url(#mask0)">
+<path d="M64.4329 12L71.7662 12L71.7662 56.9364L83.8141 44.8885L88.9996 50.0739L71.7662 67.3073L71.7662 67.3332L71.7402 67.3332L68.0735 71L47.1475 50.0739L52.3329 44.8885L64.4329 56.9884L64.4329 12Z" fill="white"/>
+</g>
+<path d="M87 116L138.649 116" stroke="#777E8B" stroke-width="5"/>
+<path d="M87 106L139 106" stroke="#777E8B" stroke-width="5"/>
+<path d="M89 95L139 95" stroke="#777E8B" stroke-width="5"/>
+<path d="M89.5 85.0107L138.649 85.0107" stroke="#777E8B" stroke-width="5"/>
+<path d="M92 75L139 75" stroke="#777E8B" stroke-width="5"/>
+<path d="M87 95L109 95" stroke="white" stroke-width="5"/>
+<path d="M87 85L109 85" stroke="white" stroke-width="5"/>
+<path d="M87 75L109 75" stroke="white" stroke-width="5"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 52.9186 3.11651)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 46.8952 3.11651)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 40.8723 3.11651)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 52.9186 9.13995)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 46.8952 9.13995)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 40.8723 9.13995)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 52.9186 15.1624)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 46.8952 15.1624)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 40.8723 15.1624)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 52.9186 21.1858)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 46.8952 21.1858)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 40.8723 21.1858)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 27.5432 32.3011)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 21.5202 32.3011)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 15.4968 32.3011)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 9.47382 32.3011)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 27.5432 38.3245)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 21.5202 38.3245)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 15.4968 38.3245)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 9.47382 38.3245)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 27.5432 44.347)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 21.5202 44.347)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 15.4968 44.347)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 9.47382 44.347)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 33.6594 3.11651)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 27.6359 3.11651)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 21.613 3.11651)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 15.59 3.11651)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 9.56659 3.11651)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 33.6594 9.13995)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 27.6359 9.13995)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 21.613 9.13995)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 15.59 9.13995)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 9.56659 9.13995)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 33.6594 15.1624)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 27.6359 15.1624)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 21.613 15.1624)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 15.59 15.1624)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 9.56659 15.1624)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 33.6594 21.1858)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 27.6359 21.1858)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 21.613 21.1858)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 15.59 21.1858)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 9.56659 21.1858)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 27.6364 26.7073)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 21.613 26.7073)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 15.59 26.7073)" fill="#777E8B"/>
+<circle r="1.39288" transform="matrix(-1 2.62268e-07 2.62268e-07 1 9.56659 26.7073)" fill="#777E8B"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="140" height="118" fill="white" transform="matrix(1 -1.74846e-07 -1.74846e-07 -1 0 118)"/>
+</clipPath>
+</defs>
+</svg>

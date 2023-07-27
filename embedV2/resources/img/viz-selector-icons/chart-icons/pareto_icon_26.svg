@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Chart Icon/Pareto</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chart-Icon/Pareto">
+            <g id="Pareto">
+                <g id="Column-chart-Copy-2">
+                    <rect id="Rectangle-4" x="0" y="0" width="48" height="48"></rect>
+                </g>
+                <g id="Column-chart-Copy-5" transform="translate(24.000000, 22.000000) scale(-1, 1) translate(-24.000000, -22.000000) translate(4.000000, 4.000000)">
+                    <rect id="Rectangle-2-Copy-4" fill="#DE576F" x="0" y="25.7142857" width="8" height="10.2857143"></rect>
+                    <rect id="Rectangle-2-Copy-5" fill="#DE576F" x="10.6666667" y="17.4857143" width="8" height="18.5142857"></rect>
+                    <rect id="Rectangle-2-Copy-6" fill="#DE576F" x="21.3333333" y="9.25714286" width="8" height="26.7428571"></rect>
+                    <rect id="Rectangle-2-Copy-7" fill="#DE576F" x="32" y="1.02857143" width="8" height="34.9714286"></rect>
+                    <polyline id="Shape" stroke="#68B8E3" stroke-width="2" transform="translate(20.000000, 15.177134) scale(-1, 1) translate(-20.000000, -15.177134) " points="2 29.6079911 14 13.0068482 25.88 4.90170536 38 0.746276786"></polyline>
+                </g>
+            </g>
+            <path d="M4,43.5 L44,43.5" id="Path-3" stroke="#757575"></path>
+        </g>
+    </g>
+</svg>

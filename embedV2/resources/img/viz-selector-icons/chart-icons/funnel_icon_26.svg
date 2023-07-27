@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Chart Icon/Funnel</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chart-Icon/Funnel">
+            <g id="funnel_chart_24-copy">
+                <rect id="Rectangle-6" x="0" y="0" width="48" height="48"></rect>
+                <g id="Group-10" transform="translate(6.000000, 6.000000)" fill-rule="nonzero">
+                    <polygon id="Shape" fill="#DE576F" points="33.967334 9.04858398 2 9.04858398 0 0.0485839844 36 0.0485839844"></polygon>
+                    <polygon id="Shape" fill="#68B8E3" points="30 18.048584 6 18.048584 2 9.04858398 34 9.04858398"></polygon>
+                    <polygon id="Shape" fill="#F5CF5F" points="26 27.048584 10 27.048584 6 18.048584 30 18.048584"></polygon>
+                    <polygon id="Shape" fill="#5776AD" points="26 27.048584 22 36.048584 14 36.048584 10 27.048584 24.852417 27.048584"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

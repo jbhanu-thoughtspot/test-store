@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>axis-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="axis-shape-copy-3" fill="#333333">
+            <rect id="Rectangle-15-Copy" x="1" y="1" width="2" height="11"></rect>
+            <path d="M1,11 L13,11 L13,13 L2.00247329,13 C1.44882258,13 1,12.5561352 1,12 L1,11 Z" id="Rectangle-15-Copy"></path>
+            <rect id="Rectangle-15-Copy-4" transform="translate(8.226581, 5.780249) rotate(-45.000000) translate(-8.226581, -5.780249) " x="4.37544251" y="4.78024864" width="7.70227736" height="2"></rect>
+            <polygon id="Rectangle-6" points="8 2 12 2 12 6"></polygon>
+        </g>
+    </g>
+</svg>

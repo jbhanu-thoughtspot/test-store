@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Chart Icon/Sankey</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 50.3275757 48 50.3275757 48 2.32757568 0 2.32757568"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chart-Icon/Sankey">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-4"></g>
+            <g id="sankey_chart_24" mask="url(#mask-2)">
+                <g transform="translate(6.000000, 6.000000)">
+                    <path d="M16.3636364,7.2 L16.3636364,27 C11.9536364,27 7.41,36 3,36 L3,16.1599998 C7.41,16.1599998 11.9536364,7.2 16.3636364,7.2 Z" id="Fill-1" fill="#F5DD95"></path>
+                    <polygon id="Fill-3" fill="#FCC2CD" points="3 7.2 16.3636364 7.2 16.3636364 0 3 0"></polygon>
+                    <path d="M19.6363636,3.6 L19.6363636,18.387 C23.9563636,18.387 28.68,23.7006 33,23.7006 L33,6.7212 C28.68,6.7212 24.32,3.6 20,3.6" id="Fill-5" fill="#89A1CC"></path>
+                    <path d="M19.6363636,27.0018 C23.9563636,27.0018 28.68,36 33,36 L33,28.674 C28.68,28.674 23.9563636,18.3996 19.6363636,18.3996 L19.6363636,27.0018 Z" id="Fill-6" fill="#84CFA7"></path>
+                    <polygon id="Fill-7" fill="#C7EBFF" points="19.6363636 3.6 33 3.6 33 0 19.6363636 0"></polygon>
+                    <path d="M16.3636364,27 L16.3636364,0 L19.6363636,0 L19.6363636,27 C18.5563636,27 17.4436364,27 16.3636364,27" id="Fill-8" fill="#68B8E3"></path>
+                    <polygon id="Fill-9" fill="#DE576F" points="-4.54775106e-14 7.2 3 7.2 3 0 -4.54775106e-14 0"></polygon>
+                    <polygon id="Fill-10" fill="#388DBA" points="33 3.6 36 3.6 36 0 33 0"></polygon>
+                    <path d="M33,35.9977998 L33,28.6861998 L36,28.6861998 L36,35.9977998 C35.0095847,35.9977998 33.9904153,35.9977998 33,35.9977998" id="Fill-11" fill="#4DB07B"></path>
+                    <path d="M33,23.7024 L33,6.714 L36,6.714 L36,23.7024 C35.0095847,23.7024 33.9904153,23.7024 33,23.7024" id="Fill-12" fill="#5776AD"></path>
+                    <path d="M-4.54775106e-14,16.1599998 L3,16.1599998 L3,35.9977998 C2.00958466,35.9977998 0.990415335,35.9977998 -4.54775106e-14,35.9977998 L-4.54775106e-14,16.1599998 Z" id="Fill-13" fill="#F5CF5F"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

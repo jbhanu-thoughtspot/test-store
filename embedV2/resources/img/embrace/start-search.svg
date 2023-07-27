@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>start-search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="30" cy="30" r="30"></circle>
+    </defs>
+    <g id="Create-Connection" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.20" transform="translate(-291.000000, -328.000000)">
+            <g id="start-search" transform="translate(291.000000, 328.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Oval" fill="#4E55FD" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="Group" mask="url(#mask-2)">
+                    <g transform="translate(-5.000000, 0.000000)">
+                        <rect id="Rectangle" stroke="none" fill="#FFFFFF" fill-rule="nonzero" opacity="0.5" x="0" y="30" width="20" height="30"></rect>
+                        <rect id="Rectangle" stroke="none" fill="#FFFFFF" fill-rule="nonzero" opacity="0.4" x="50" y="0" width="20" height="30"></rect>
+                        <rect id="Rectangle" stroke="none" fill="#D3D5FF" fill-rule="nonzero" opacity="0.9" x="5" y="0" width="45" height="30"></rect>
+                        <rect id="Rectangle" stroke="none" fill="#D3D5FF" fill-rule="nonzero" opacity="0.3" x="20" y="30" width="45" height="30"></rect>
+                        <path d="M50,5 L5,5" id="Path" stroke="#4E55FD" stroke-width="1" fill="#FEC32E" fill-rule="nonzero"></path>
+                        <path d="M50,10 L5,10" id="Path" stroke="#4E55FD" stroke-width="1" fill="#FEC32E" fill-rule="nonzero"></path>
+                        <path d="M50,15 L5,15" id="Path" stroke="#4E55FD" stroke-width="1" fill="#FEC32E" fill-rule="nonzero"></path>
+                        <path d="M45,20 L5,20" id="Path" stroke="#4E55FD" stroke-width="1" fill="#FEC32E" fill-rule="nonzero"></path>
+                        <path d="M40,25 L5,25" id="Path" stroke="#4E55FD" stroke-width="1" fill="#FEC32E" fill-rule="nonzero"></path>
+                        <path d="M65,35 L30,35" id="Path" stroke="#A7AAFE" stroke-width="1" fill="none"></path>
+                        <path d="M65,40 L20,40" id="Path" stroke="#A7AAFE" stroke-width="1" fill="none"></path>
+                        <path d="M65,45 L20,45" id="Path" stroke="#A7AAFE" stroke-width="1" fill="none"></path>
+                        <path d="M65,50 L20,50" id="Path" stroke="#A7AAFE" stroke-width="1" fill="none"></path>
+                        <path d="M65,55 L20,55" id="Path" stroke="#A7AAFE" stroke-width="1" fill="none"></path>
+                        <path d="M50,30 L50,30 C50,38.2842712 43.2842712,45 35,45 L35,45 C26.7157288,45 20,38.2842712 20,30 L20,30" id="Path" stroke="none" fill="#4E55FD" fill-rule="nonzero"></path>
+                        <path d="M20,30 C20,21.7157288 26.7157288,15 35,15 L35,15 C38.9782473,15 42.793556,16.5803526 45.6066017,19.3933983 C48.4196474,22.206444 50,26.0217527 50,30" id="Path" stroke="none" fill="#767CFE" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+                <path d="M28.8375,36.8125 C30.6315919,36.7745754 32.3612063,36.1364225 33.75,35 L37.7,38.8625 C37.8700563,39.0094131 38.0877801,39.0893932 38.3125,39.0875329 C38.5401513,39.0865308 38.7572839,38.9915353 38.9125,38.825 C39.0804715,38.6604222 39.1751276,38.4351602 39.1751276,38.2 C39.1751276,37.9648398 39.0804715,37.7395778 38.9125,37.575 L35,33.75 C37.281036,30.8229585 37.2336626,26.7071947 34.8858581,23.8334323 C32.5380535,20.9596698 28.5144168,20.0924309 25.1912623,21.7438972 C21.8681077,23.3953634 20.1295119,27.1261864 21.0022698,30.7329842 C21.8750277,34.3397821 25.1269549,36.8630191 28.8375,36.8125 L28.8375,36.8125 Z M28.75,23.2625 C31.0169957,23.2322279 33.0785646,24.571845 33.9718164,26.6556605 C34.8650681,28.739476 34.4137323,31.1562789 32.8286128,32.7772608 C31.2434934,34.3982427 28.8373909,34.903526 26.7341161,34.0571097 C24.6308412,33.2106934 23.2454449,31.1796056 23.225,28.9125 C23.1971955,25.8293064 25.6669558,23.3036691 28.75,23.2625 L28.75,23.2625 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                <g id="Group" opacity="0.8" mask="url(#mask-2)" stroke="#FFFFFF">
+                    <g transform="translate(-22.500000, 26.250000)" id="Path">
+                        <path d="M1.225,23.2125 L23.3125,1.125"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

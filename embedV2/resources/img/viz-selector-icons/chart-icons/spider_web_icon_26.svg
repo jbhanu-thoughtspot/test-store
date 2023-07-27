@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Chart Icon/Radar 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chart-Icon/Radar-1" stroke-width="0.5">
+            <g id="spider_chart_24-copy">
+                <g id="Group-2" stroke="#D1D1D1">
+                    <path d="M25.0525589,2.28867513 L6.25,13.1443376 L6.25,34.8556624 L25.0525589,45.7113249 L43.8551178,34.8556624 L43.8551178,13.1443376 L25.0525589,2.28867513 Z" id="Polygon-2"></path>
+                    <path d="M25.8564065,8.28867513 L12.25,16.1443376 L12.25,31.8556624 L25.8564065,39.7113249 L39.4628129,31.8556624 L39.4628129,16.1443376 L25.8564065,8.28867513 Z" id="Polygon-2"></path>
+                    <path d="M26.660254,14.2886751 L18.25,19.1443376 L18.25,28.8556624 L26.660254,33.7113249 L35.0705081,28.8556624 L35.0705081,19.1443376 L26.660254,14.2886751 Z" id="Polygon-2"></path>
+                </g>
+                <polygon id="Fill-7-Copy" stroke="#FD624B" fill-opacity="0.400000006" fill="#FD624B" points="10 33.7333333 16.4 16.6666667 24.9333333 8 33.4666667 20.9333333 39.8666667 29.4666667 27.0666667 38"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

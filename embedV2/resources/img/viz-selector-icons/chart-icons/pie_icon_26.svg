@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Chart Icon/Pie</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chart-Icon/Pie">
+            <g id="pie_chart_24">
+                <rect id="Rectangle-path" x="0" y="0" width="48" height="47.98"></rect>
+                <path d="M23,2 L23,46 C11.6184562,45.4934133 2.50658672,36.3815438 2,25 C2,24.68 2,24.34 2,24 C2,23.66 2,23.32 2,23 C2.50658672,11.6184562 11.6184562,2.50658672 23,2 Z" id="Shape" fill="#5776AD" fill-rule="nonzero"></path>
+                <path d="M38.84,7.76 L25,21.6 L25,2 C30.1453893,2.24056756 35.0432387,4.27897887 38.84,7.76 Z" id="Shape" fill="#DE576F" fill-rule="nonzero"></path>
+                <path d="M25,25 L46,25 C45.4934133,36.3815438 36.3815438,45.4934133 25,46 L25,25 Z" id="Shape" fill="#F5CF5F" fill-rule="nonzero"></path>
+                <path d="M46,23 L26.4,23 L40.24,9.16 C43.7210211,12.9567613 45.7594324,17.8546107 46,23 Z" id="Shape" fill="#68B8E3" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

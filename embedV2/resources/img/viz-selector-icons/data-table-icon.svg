@@ -1,0 +1,10 @@
+<svg focusable="false" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M-4-4h48v48H-4z"/>
+        <g stroke="#C7C7C7">
+            <path d="M.5.5h39v39H.5zM20 40V7M30 40V7M10 40V7"/>
+        </g>
+        <path stroke="#C7C7C7" d="M0 32h40M0 24h40M0 16h40"/>
+        <path fill="#757575" d="M0 0h40v8H0z"/>
+    </g>
+</svg>

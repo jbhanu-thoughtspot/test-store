@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Loading profile icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="24" cy="24" r="24"></circle>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Loading-profile-icon">
+            <g>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" stroke="#E6E8EB" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <path d="M46.549,42.942 C38.551,39.851 29.672,36.013 28.926,33.622 L28.926,31.113 C30.585,29.416 31.894,27.049 32.668,24.277 C33.697,23.554 34.376,22.336 34.376,20.953 C34.376,19.971 34.02,19.082 33.451,18.383 L33.451,12.767 C33.451,6.969 30.222,3 22.842,3 C15.652,3 12.229,6.969 12.229,12.767 L12.229,18.385 C11.663,19.082 11.306,19.971 11.306,20.953 C11.306,22.335 11.983,23.552 13.012,24.276 C13.786,27.048 15.096,29.416 16.756,31.113 L16.756,33.621 C16.012,36.01 7.131,39.849 -0.867,42.941 C-1.549,43.206 -2,43.869 -2,44.61 L-2,50.884 C-2,51.869 -1.212,52.67 -0.24,52.67 L45.922,52.67 C46.894,52.67 47.682,51.869 47.682,50.884 L47.682,44.611 C47.682,43.869 47.231,43.204 46.549,42.942" id="Page-1" fill="#E6E8EB" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

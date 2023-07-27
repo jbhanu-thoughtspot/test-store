@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Presentation</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="White-with-Gray-Header" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1214.000000, -187.000000)">
+        <g id="Header" transform="translate(126.000000, 162.000000)" fill="#374852">
+            <g id="Header-Actions" transform="translate(1088.000000, 25.000000)">
+                <path d="M21.839,0.53325 C23.066,0.66725 24,1.78925 24,3.13025 L24,14.87025 C24,16.21025 23.066,17.33325 21.839,17.46625 C15.296,18.17825 8.704,18.17825 2.161,17.46625 C0.934,17.33325 0,16.21025 0,14.87025 L0,3.13025 C0,1.78925 0.934,0.66725 2.161,0.53325 C8.704,-0.17775 15.296,-0.17775 21.839,0.53325 Z M10.3189,12.15405 L15.6809,9.00005 L10.3189,5.84605 L10.3189,12.15405 Z M19.4,20.00015 C19.952,20.00015 20.4,20.44815 20.4,21.00015 C20.4,21.55215 19.952,22.00015 19.4,22.00015 L4.6,22.00015 C4.048,22.00015 3.6,21.55215 3.6,21.00015 C3.6,20.44815 4.048,20.00015 4.6,20.00015 L19.4,20.00015 Z" id="Presentation"></path>
+            </g>
+        </g>
+    </g>
+</svg>

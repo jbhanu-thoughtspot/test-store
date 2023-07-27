@@ -1,0 +1,20 @@
+// Breakpoints
+// Source: http://blog.scur.pl/2012/06/variable-media-queries-less-css/
+@highdensity: ~"only screen and (-webkit-min-device-pixel-ratio: 1.5)",
+~"only screen and (min--moz-device-pixel-ratio: 1.5)",
+~"only screen and (-o-min-device-pixel-ratio: 3/2)",
+~"only screen and (min-device-pixel-ratio: 1.5)";
+@mobile:      ~"only screen and (max-width: 529px)";
+@tablet:      ~"only screen and (min-width: 530px) and (max-width: 949px)";
+@desktop:     ~"only screen and (min-width: 950px) and (max-width: 1128px)";
+@desktop-xl:  ~"only screen and (min-width: 1129px)";
+
+@bk-phone: ~"(min-width: 310px)";
+@bk-tablet: ~"(min-width: 630px)";
+@bk-tablet-xl: ~"(min-width: 700px)";
+@bk-desktop: ~"(min-width: 1014px)";
+@bk-wide-desktop: ~"(min-width: 1014px) and (max-width: 1200px)";
+@bk-desktop-MDPI: ~"(min-width: 1280px)";
+@bk-desktop-HiDPI: ~"(min-width: 1440px)";
+@bk-widescreen: ~"(min-width: 1910px)";
+@bk-short-screen: ~"(max-height: 800px)";

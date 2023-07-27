@@ -1,0 +1,104 @@
+$auth-logo-width: 233px;
+$auth-logo-height: 47px;
+$auth-form-container-max-width: 504px;
+$auth-form-container-min-height: 420px;
+
+// Note: any changes made to bk-auth-logo should be verified with custom wide logo image as well
+
+.bk-auth-logo {
+    display: block;
+    width: $auth-logo-width;
+    height: $auth-logo-height;
+    margin-bottom: $rd-spacing--i; // Total bottom margin of 40px
+    background:
+        url('/resources/img/logo/TS-logo-wide.svg') no-repeat
+        center;
+}
+
+.bk-auth-background,
+.bk-auth-background::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.bk-auth-background {
+    background:
+        url('/resources/img/login-hero/login-bg.webp')
+        repeat center;
+    background-size: cover;
+}
+
+.bk-auth-background::after {
+    content: '';
+    background-color: rgba(rd-color('black'), .2);
+}
+
+.bk-auth-form-container {
+    max-width: $auth-form-container-max-width;
+    min-height: $auth-form-container-min-height;
+    flex-grow: 1;
+    padding: 48px 84px;
+
+    @include flex(column);
+    @include flex-justify(center);
+    @include flex-align(center);
+
+    border-radius: $rd-layout--radius;
+
+    @include rd-elevation--500;
+
+    background-color: rd-color('white');
+    z-index: 1;
+
+    .bk-auth-form {
+        width: 100%;
+
+        .bk-auth-form-input {
+            position: relative;
+
+            & + .bk-auth-form-input {
+                margin-top: $rd-spacing--d;
+            }
+
+            input[ type = 'text' ],
+            input[ type = 'password' ] {
+                line-height: inherit;
+                color: rd-color('gray', 'shade-1');
+                height: 100%;
+                width: 100%;
+                margin: 0;
+
+                @include box-sizing(border-box);
+            }
+        }
+
+        .bk-auth-checkbox {
+            margin-top: $rd-spacing--e;
+        }
+
+        .bk-auth-form-actions {
+            margin-top: $rd-spacing--e;
+            text-align: center;
+        }
+    }
+}
+
+.bk-activation,
+.bk-forgot-password,
+.bk-reset-password,
+.bk-login {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rd-color('gray', 'tint-5');
+
+    @include flex(row);
+    @include flex-justify(center);
+    @include flex-align(center);
+}

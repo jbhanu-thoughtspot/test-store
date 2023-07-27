@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>pinboard-9</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons-final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pinboard-shape-copy-4" fill="#333333">
+            <path d="M0,10 L4,10 L4,14 L1.0093689,14 C0.451909848,14 0,13.5566468 0,12.9906311 L0,10 Z M5,10 L9,10 L9,14 L5,14 L5,10 Z M10,10 L14,10 L14,12.9906311 C14,13.5480902 13.5566468,14 12.9906311,14 L10,14 L10,10 Z M0,5 L4,5 L4,9 L0,9 L0,5 Z M5,5 L9,5 L9,9 L5,9 L5,5 Z M10,5 L14,5 L14,9 L10,9 L10,5 Z M0,1.0093689 C0,0.451909848 0.443353176,0 1.0093689,0 L4,0 L4,4 L0,4 L0,1.0093689 Z M5,0 L9,0 L9,4 L5,4 L5,0 Z M10,0 L12.9906311,0 C13.5480902,0 14,0.443353176 14,1.0093689 L14,4 L10,4 L10,0 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

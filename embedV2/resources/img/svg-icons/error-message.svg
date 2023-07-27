@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>error-message-Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Final-Export" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-56.000000, -153.000000)">
+            <g id="error-message-Icon" transform="translate(56.000000, 153.000000)">
+                <circle id="Oval-3" fill="#DE576F" cx="8" cy="8" r="8"></circle>
+                <text id="!" font-family="SanFranciscoDisplay-Bold, San Francisco Display" font-size="14" font-weight="bold" line-spacing="14" fill="#FFFFFF">
+                    <tspan x="6" y="13">!</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

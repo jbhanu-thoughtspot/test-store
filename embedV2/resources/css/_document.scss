@@ -1,0 +1,25 @@
+@mixin bk-document-title {
+    display: inline-block;
+    position: relative;
+    min-width: 330px;
+    height: 36px;
+
+    @include rd-font--h4;
+
+    color: rd-color('text', 'gray');
+}
+
+.bk-document-title {
+    @include bk-document-title;
+}
+
+@mixin bk-pinboard-document-title {
+    display: inline-block;
+    position: relative;
+    min-width: 330px;
+    height: 45px;
+
+    @include rd-font--h2;
+
+    color: rd-color('text', 'gray');
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="8px" height="8px" viewBox="0 0 8 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Remove</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4,2.66666667 L6.66666667,0 L8,1.33333333 L5.33333333,4 L8,6.66666667 L6.66666667,8 L4,5.33333333 L1.33333333,8 L0,6.66666667 L2.66666667,4 L0,1.33333333 L1.33333333,0 L4,2.66666667 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Action/20/Remove" transform="translate(-6.000000, -6.000000)">
+            <g id="Remove" transform="translate(6.000000, 6.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#47515F" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="Colors/Icons/Default" mask="url(#mask-2)">
+                    <g transform="translate(-6.000000, -6.000000)" id="Colors/Basic/Toned-Gray/Shade-4">
+                        <g>
+                            <g id="Colors/Basic/Black" fill="#000000">
+                                <rect id="Color" x="0" y="0" width="20" height="20"></rect>
+                            </g>
+                            <g id="Colors/Basic/White" opacity="0.2" fill="#FFFFFF">
+                                <rect id="Color" x="0" y="0" width="20" height="20"></rect>
+                            </g>
+                            <g id="Colors/Accent/Default" opacity="0.1" fill="#0D74FF">
+                                <rect id="teenage-blue" x="0" y="0" width="20" height="20"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

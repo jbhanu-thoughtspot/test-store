@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="10px" height="7px" viewBox="0 0 10 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Chevron-down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="8.32020479 0.305100447 9.72912557 1.72458705 5.00510752 6.41344229 0.295227501 1.7234446 1.70644661 0.306242904 5.00739248 3.59325413"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Action/20/Chevron-down" transform="translate(-5.000000, -7.000000)">
+            <g id="Chevron-down" transform="translate(5.000000, 7.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask" fill-rule="nonzero"></g>
+                <g id="Colors/Icons/Default" mask="url(#mask-2)">
+                    <g transform="translate(-5.000000, -7.000000)" id="Colors/Basic/Gray-8">
+                        <g>
+                            <g id="Colors/Basic/Black" fill="#000000">
+                                <rect id="Color" x="0" y="0" width="20" height="20"></rect>
+                            </g>
+                            <rect id="filter" fill="#FFFFFF" opacity="0.2" x="0" y="0" width="20" height="20"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

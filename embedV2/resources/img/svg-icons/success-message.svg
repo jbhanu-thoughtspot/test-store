@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg focusable="false" width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>success-message-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Final-Export" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-56.000000, -181.000000)">
+            <g id="success-message-icon" transform="translate(56.000000, 181.000000)">
+                <circle id="Oval-3" fill="#41B376" cx="8" cy="8" r="8"></circle>
+                <polyline id="Path-2" stroke="#FFFFFF" stroke-width="1.8" transform="translate(8.371992, 8.038119) rotate(-1.000000) translate(-8.371992, -8.038119) " points="4.04232464 7.7303891 6.11535751 10.5010492 12.7016591 5.575188"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
