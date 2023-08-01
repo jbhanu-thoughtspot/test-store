@@ -90,9 +90,9 @@
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/go/go.js"
   },
   "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/handlebars/handlebars.js": {
-    "file": "handlebars-63c279cd.js",
+    "file": "handlebars-91377450.js",
     "imports": [
-      "_libs-06a58be6.js"
+      "_libs-d8c0cec7.js"
     ],
     "isDynamicEntry": true,
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/handlebars/handlebars.js"
@@ -103,9 +103,9 @@
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/hcl/hcl.js"
   },
   "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/html/html.js": {
-    "file": "html-7ba66ef3.js",
+    "file": "html-4ea9fe02.js",
     "imports": [
-      "_libs-06a58be6.js"
+      "_libs-d8c0cec7.js"
     ],
     "isDynamicEntry": true,
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/html/html.js"
@@ -121,10 +121,10 @@
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/java/java.js"
   },
   "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/javascript/javascript.js": {
-    "file": "javascript-d532c292.js",
+    "file": "javascript-885838b3.js",
     "imports": [
       "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/typescript/typescript.js",
-      "_libs-06a58be6.js"
+      "_libs-d8c0cec7.js"
     ],
     "isDynamicEntry": true,
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/javascript/javascript.js"
@@ -150,9 +150,9 @@
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/lexon/lexon.js"
   },
   "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/liquid/liquid.js": {
-    "file": "liquid-a323c334.js",
+    "file": "liquid-67d2a0bf.js",
     "imports": [
-      "_libs-06a58be6.js"
+      "_libs-d8c0cec7.js"
     ],
     "isDynamicEntry": true,
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/liquid/liquid.js"
@@ -238,9 +238,9 @@
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/pug/pug.js"
   },
   "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/python/python.js": {
-    "file": "python-b74f4040.js",
+    "file": "python-8fe6c28a.js",
     "imports": [
-      "_libs-06a58be6.js"
+      "_libs-d8c0cec7.js"
     ],
     "isDynamicEntry": true,
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/python/python.js"
@@ -251,9 +251,9 @@
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/r/r.js"
   },
   "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/razor/razor.js": {
-    "file": "razor-52d4c251.js",
+    "file": "razor-314630aa.js",
     "imports": [
-      "_libs-06a58be6.js"
+      "_libs-d8c0cec7.js"
     ],
     "isDynamicEntry": true,
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/razor/razor.js"
@@ -349,9 +349,9 @@
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/twig/twig.js"
   },
   "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/typescript/typescript.js": {
-    "file": "typescript-f12253ae.js",
+    "file": "typescript-43ed7c70.js",
     "imports": [
-      "_libs-06a58be6.js"
+      "_libs-d8c0cec7.js"
     ],
     "isDynamicEntry": true,
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/typescript/typescript.js"
@@ -362,9 +362,9 @@
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/vb/vb.js"
   },
   "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/xml/xml.js": {
-    "file": "xml-e2ab4810.js",
+    "file": "xml-051cd9ca.js",
     "imports": [
-      "_libs-06a58be6.js"
+      "_libs-d8c0cec7.js"
     ],
     "isDynamicEntry": true,
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/xml/xml.js"
@@ -375,47 +375,47 @@
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/yaml/yaml.js"
   },
   "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/language/css/cssMode.js": {
-    "file": "cssMode-9bf7bde9.js",
+    "file": "cssMode-da5f206d.js",
     "imports": [
-      "_libs-06a58be6.js"
+      "_libs-d8c0cec7.js"
     ],
     "isDynamicEntry": true,
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/language/css/cssMode.js"
   },
   "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/language/html/htmlMode.js": {
-    "file": "htmlMode-95abae7b.js",
+    "file": "htmlMode-3474dffd.js",
     "imports": [
-      "_libs-06a58be6.js"
+      "_libs-d8c0cec7.js"
     ],
     "isDynamicEntry": true,
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/language/html/htmlMode.js"
   },
   "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/language/json/jsonMode.js": {
-    "file": "jsonMode-1206c865.js",
+    "file": "jsonMode-6d6eb9f1.js",
     "imports": [
-      "_libs-06a58be6.js"
+      "_libs-d8c0cec7.js"
     ],
     "isDynamicEntry": true,
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/language/json/jsonMode.js"
   },
   "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/language/typescript/tsMode.js": {
-    "file": "tsMode-1993f96f.js",
+    "file": "tsMode-e1dd101a.js",
     "imports": [
-      "_libs-06a58be6.js",
-      "_embed-v2-c1c94eb1.js"
+      "_libs-d8c0cec7.js",
+      "_embed-v2-f83704e6.js"
     ],
     "isDynamicEntry": true,
     "src": "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/language/typescript/tsMode.js"
   },
-  "_browser-890c6705.js": {
-    "file": "browser-890c6705.js",
+  "_browser-92dfb8e2.js": {
+    "file": "browser-92dfb8e2.js",
     "imports": [
-      "_libs-06a58be6.js",
-      "_embed-v2-c1c94eb1.js"
+      "_libs-d8c0cec7.js",
+      "_embed-v2-f83704e6.js"
     ],
     "isDynamicEntry": true
   },
-  "_embed-v2-c1c94eb1.js": {
+  "_embed-v2-f83704e6.js": {
     "dynamicImports": [
       "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/language/typescript/tsMode.js",
       "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/language/css/cssMode.js",
@@ -495,25 +495,25 @@
       "../../../node_modules/.pnpm/monaco-editor@0.25.2/node_modules/monaco-editor/esm/vs/basic-languages/yaml/yaml.js",
       "_index-098daa73.js",
       "_index-098daa73.js",
-      "_browser-890c6705.js"
+      "_browser-92dfb8e2.js"
     ],
-    "file": "embed-v2-c1c94eb1.js",
+    "file": "embed-v2-f83704e6.js",
     "imports": [
-      "_libs-06a58be6.js"
+      "_libs-d8c0cec7.js"
     ]
   },
   "_index-098daa73.js": {
     "file": "index-098daa73.js",
     "isDynamicEntry": true
   },
-  "_libs-06a58be6.js": {
-    "file": "libs-06a58be6.js"
+  "_libs-d8c0cec7.js": {
+    "file": "libs-d8c0cec7.js"
   },
   "src/embed-v2.tsx": {
-    "file": "index-9f2f5cb4.js",
+    "file": "index-2e060ad0.js",
     "imports": [
-      "_embed-v2-c1c94eb1.js",
-      "_libs-06a58be6.js"
+      "_embed-v2-f83704e6.js",
+      "_libs-d8c0cec7.js"
     ],
     "isEntry": true,
     "src": "src/embed-v2.tsx"
